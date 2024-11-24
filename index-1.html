@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: "poppins";
+}
+ .news-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #a30000;
+    color: #fff;
+    height: 60px;
+    padding: 10px;
+}
+
+.flash-news {
+    background-color: #003366;
+    color:#fff;
+   font-weight: bold;
+    width:200px;
+    height:50px;
+    margin-left: 0;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.scrolling-news {
+    flex-grow: 1;
+    margin-left: 20px;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+    </style>
+</head>
+<body>
+    <div class="news-container">
+        <div class="flash-news">
+            Flash News
+        </div>
+        <marquee class="scrolling-news" behavior="scroll" direction="left" scrollamount="6">
+            Patrician College of Arts and Science Ranked No.1 in Tamil Nadu and No.18 in India among Non-Autonomous Colleges
+        </marquee>
+    </div>
+    
+</body>
+</html>
+<!---------------------------------------------------------------------------------------------->
+
+<!--  ---------------------------------------------------------------------------------------------- -->
+    <!-- Header Section -->
+     
+    <header>
+        <div class="top-bar">
+            <div class="contact-info">
+                <a href="mailto:principal@tncollege.ac.in">principal@tncollege.ac.in</a> | 
+                <a href="tel:+919342465500">+91-93424 65500</a>
+                        </div>
+            <div class="links">
+                <i class="fa-solid fa-user" style="margin:3px"></i> <a href="#">Faculty</a>
+                <i class="fa-solid fa-user" style="margin:3px"></i><a href="#">Student</a>
+                <i class="fa-solid fa-book-open-reader" style="margin:3px"></i><a href="#">Libary</a>
+                <i class="fa-solid fa-graduation-cap" style="margin: 3px;"></i><a href="#">Placement</a>
+                <i class="fa-solid fa-suitcase" style="margin:3px"></i> <a href="#">Careers</a>
+                <a href="#" aria-label="Admission page" class="admission-btn"><i class="fa-solid fa-building-columns" style="margin:3px"></i>Admission</a>
+
+            </div>
+        </div>
+<!--  ---------------------------------------------------------------------------------------------- -->
+
+        <!-- Logo and Title Section -->
+        <div class="logo-section">
+            <img src="assets/img/TNC_logo.png" alt="Thiruthangal Nadar College Logo" class="logo">
+            <div class="college-info">
+               <center><h1>Thiruthangal Nadar College</h1>
+                <p>Affiliated to the University of Madras & Reaccredited 'B++' Grade By NAAC</p>
+                <center><p>Selavayal, Chennai-600051</p></center>
+            </center> 
+            </div>
+        </div>
+<!--  ---------------------------------------------------------------------------------------------- -->
+
+       <!-- Navigation Bar -->
+        <div class="div">
+<nav class="navbar">
+    <div class="hamburger" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <ul>
+
+        <li><a href="/" class="home-link" style="text-decoration: underline;">Home</a></li>
+        <li class="dropdown">
+            <a href="/iqac">About us</a>
+            <ul class="dropdown-content">
+                <li><a href="/iqac/about">History</a></li>
+                <li><a href="/iqac/aqar">Message from principal & serectary</a></li>
+                <li><a href="/iqac/best-practices">Committee of Management</a></li>
+                <li><a href="/iqac/feedback">Institution Policies</a></li>
+                <li><a href="/iqac/alumni">Organogram</a></li>
+                <li><a href="/iqac/gallery">Annual Reports</a></li>
+                <li><a href="/iqac/distinctiveness">Accreditation</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="/iqac">Academics</a>
+            <ul class="dropdown-content">
+                <li><a href="/iqac/about">Course Offered</a></li>
+                <li><a href="/iqac/aqar">Academic calender</a></li>
+                <li><a href="/iqac/best-practices">Academic leadership</a></li>
+                <li><a href="/iqac/feedback">Academic Collabration</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="/iqac">Admission</a>
+            <ul class="dropdown-content">
+                <li><a href="/iqac/about">Programee offered</a></li>
+                <li><a href="/iqac/aqar">Guidlines for admission</a></li>
+                <li><a href="/iqac/best-practices">Online Application</a></li>
+            </ul>
+        </li>
+        <li><a href="/research">Research</a></li>
+        <li class="dropdown">
+            <a href="/iqac">Campus Life</a>
+            <ul class="dropdown-content">
+                <li><a href="/iqac/about">Association activites</a></li>
+                <li><a href="/iqac/aqar">Alumini Association</a></li>
+                <li><a href="/iqac/best-practices">Student council</a></li>
+                <li><a href="/iqac/feedback">Student support</a></li>
+                <li><a href="/iqac/alumni">Club activities</a></li>
+                <li><a href="/iqac/gallery">Committee</a></li>
+                <li><a href="/iqac/distinctiveness">E-content</a></li>
+                <li><a href="/iqac/members">Infrastructure</a></li>
+                <li><a href="/iqac/members">Extension Activity</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="iqac.html">IQAC</a>
+            <ul class="dropdown-content">
+                <li><a href="iqac.html">About IQAC</a></li>
+                <li><a href="iqac.html">AQAR</a></li>
+                <li><a href="iqac.html">Best Practices</a></li>
+                <li><a href="iqac.html">Feedback</a></li>
+                <li><a href="iqac.html">Alumni</a></li>
+                <li><a href="iqac.html">Gallery</a></li>
+                <li><a href="iqac.html">Institutional Distinctiveness</a></li>
+                <li><a href="iqac.html">IQAC Committee Members</a></li>
+                <li><a href="iqac.html">IQAC Minutes And ATR</a></li>
+                <li><a href="iqac.html">Quality Initiatives</a></li>
+                <li><a href="iqac.html">SSR Cycle II Report</a></li>
+                <li><a href="iqac.html>">NIRF</a></li>
+                <li><a href="iqac.html">Templates</a></li>
+                <li><a href="iqac.html">Internal Complaint Committee</a></li>
+                <li><a href="iqac.html">MOU's</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="/iqac">NAAC</a>
+            <ul class="dropdown-content">
+                <li><a href="/iqac/about">Nacc SSR Third cycle</a></li>
+                <li><a href="/iqac/aqar">IIQA</a></li>
+                <li><a href="/iqac/best-practices">Nacc Peer Team</a></li>
+                <li><a href="/iqac/feedback">Feedback</a></li>
+            </ul>
+        </li>
+        
+        <li><a href="/contact">Gallery</a></li>
+        <li><a href="/contact">Contact Us</a></li>
+    </ul>
+</nav>
+    </header>
+
+
+
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        
+    </body>
+    </html>
