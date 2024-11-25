@@ -60,11 +60,11 @@ body{
     margin-right: 20px;
 }
 
-.college-info h1 {
+.college-info #college-name {
     font-size: 40px;
     margin: 0;
     color: black;
-    font: 400;
+    font: 400 ;
 }
 
 .college-info p {

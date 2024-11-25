@@ -21,7 +21,7 @@
 include("header.html");
 ?>    
     <div class="title-iqac">
-        <h1>Internal Quality Assurance Cell</h1>
+        <h1 >Internal Quality Assurance Cell</h1>
     </div>
     <!-- IQAC Section -->
     <section id="iqac-container">
