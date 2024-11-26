@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thiruthangal Nadar </title>
+    <title>Thiruthangal Nadar college </title>
 <link href="css/custom-styles.css" rel="stylesheet">
     <!--Main style sheets for nav-bar anad body content-->
     <link rel="stylesheet" href="css/home-content-style/styles.css">
