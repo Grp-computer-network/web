@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IQAC - Thiruthangal Nadar College</title>
     <link rel="stylesheet" href="iqac.css"> <!-- Your existing CSS file -->
-    <link rel="stylesheet" href="css/home/styles.css">
-    <link rel="stylesheet" href="css/home/footer.css">
-    <link rel="stylesheet" href="css/home/addmission.css">
+    <link rel="stylesheet" href="css/home-content-style/styles.css">
+    <link rel="stylesheet" href="css/home-content-style/footer.css">
+    <link rel="stylesheet" href="css/home-content-style/addmission.css">
     
 
 
