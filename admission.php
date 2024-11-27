@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="iqac.css"> <!-- Your existing CSS file -->
     <link rel="stylesheet" href="css/home-content-style/styles.css">
     <link rel="stylesheet" href="css/home-content-style/footer.css">
-    <link rel="stylesheet" href="css/home-content-style/admission.css">
+    <link rel="stylesheet" href="css/home-content-style/addmission.css">
     
 
 
