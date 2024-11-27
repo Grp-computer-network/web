@@ -12,7 +12,7 @@
     <!--style for companies visted below the moving image -->
     <link rel="stylesheet" href="css/home-content-style/companies-visted.css">
     <!--style campus tour and events section-->
-    <link rel="stylesheet" href="css/home-content-style/campus-events.css">
+    <!-- <link rel="stylesheet" href="css/home-content-style/campus-events.css"> -->
     <!--style for college management msg content -->
     <link rel="stylesheet" href="css/home-content-style/management-msg.css">
     <!--style for icons imported-->
@@ -26,8 +26,10 @@
     <!--style for the pop events-->
     <link rel="stylesheet" href="css/home-content-style/popup.css">
     <link rel="stylesheet" href="css/home-content-style/addmission.css">
+    <link rel="stylesheet" href="css/home-content-style/campus.css">
 </head>
-
+<style>
+</style>
 <body>
     <!-- Header Section -->
   <?php
