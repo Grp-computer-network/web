@@ -1,12 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/home-content-style/styles.css">
-    <title>Tailwind Test</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind Test</title>
+  <link href="css/tailwind.css" rel="stylesheet">
+  <style>
+    /* Add this custom animation to make the image move */
+    @keyframes moveBanner {
+      0% {
+        transform: translateX(100%); /* Start off-screen from the right */
+      }
+      100% {
+        transform: translateX(-100%); /* Move completely off-screen to the left */
+      }
+    }
+
+    .banner {
+      animation: moveBanner 20s linear infinite;
+    }
+  </style>
 </head>
-<body>
-          
+<body class="bg-gray-100">
+  <div class="bg-blue-500 text-white p-4 rounded shadow-lg">
+    <h1 class="text-3xl font-bold">Tailwind is Working!</h1>
+    <p class="text-sm">Test your setup with basic classes.</p>
+  </div>
+  
+  <div class="overflow-hidden relative">
+    <div class="banner flex items-center space-x-4">
+      <!-- Add your image here -->
+      <img src="/COLLEGE_WEB/assets/img/2-1.png" alt="Banner Image" class="w-full h-auto">
+      <img src="https://via.placeholder.com/1500x500" alt="Banner Image" class="w-full h-auto">
+      <img src="https://via.placeholder.com/1500x500" alt="Banner Image" class="w-full h-auto">
+    </div>
+  </div>
 </body>
 </html>

@@ -54,7 +54,7 @@
         
         <!-- Slide 3 -->
         <div class="mySlides fade">
-            <img src="./assets/carosule/3.png" alt="Slide 3" style="width:100%">
+            <img src="./assets/carosule/3.png" alt="Slide 3" style="width:100%" >
             <div class="text">Innovating the Future</div>
         </div>
         <div class="mySlides fade">
