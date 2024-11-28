@@ -24,7 +24,7 @@ include("header.html");
 ?>    
 <!------------------------------------------------------------------------------------------------ -->
 <div class="title-iqac">
-    <h1>About us</h1>
+    <h1 style='font-size:23px; font-weight:bold;'>About us</h1>
 </div>
 <!-- IQAC Section -->
 <section id="iqac-container">
@@ -32,7 +32,7 @@ include("header.html");
     <nav id="iqac-nav">
         <ul>
             <li><a href="about/history.html" class="iqac-link">History</a></li>
-            <li><a href="about/msg-principal-serectary.html" class="iqac-link">Message from principal & serectary</a></li>
+            <li><a href="about/msg-principal-serectary.html" class="iqac-link">Institutional Development Plan</a></li>
             <li><a href="about/committee-msg.html" class="iqac-link">Committee of Management</a></li>
             <li><a href="about/insitution-polices.html" class="iqac-link">Institution Policies</a></li>
             <li><a href="about/organogram.html" class="iqac-link">Organogram</a></li>
@@ -60,9 +60,6 @@ include("header.html");
         <p style="font-size: 1.3rem;">
             We believe in holistic development, and students are encouraged to participate in various clubs and organizations, including the *Eco Club, **Student Development Council (SDC), **National Service Scheme (NSS), and **National Cadet Corps (NCC)*. These activities promote leadership, environmental awareness, and civic responsibility.
         </p>
-        <?php
-        echo realpath("../assets/img/Organogram-New.jpg");
-        ?>
     </div>
 </section>
   <?php 

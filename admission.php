@@ -4,10 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IQAC - Thiruthangal Nadar College</title>
+<<<<<<< HEAD
     <link rel="stylesheet" href="iqac.css"> <!-- Your existing CSS file -->
     <link rel="stylesheet" href="css/home/styles.css">
     <link rel="stylesheet" href="css/home/footer.css">
     <link rel="stylesheet" href="css/home/addmission.css">
+=======
+    <link rel="stylesheet" href="css/IQAC/iqac.css">
+    <link rel="stylesheet" href="css/home-content-style/styles.css">
+    <link rel="stylesheet" href="css/home-content-style/footer.css">
+    <link rel="stylesheet" href="css/home-content-style/addmission.css">
+>>>>>>> e8a3b61b06b37e789623f045a5f55e378ae62293
     
 
 
