@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/home-content-style/footer.css">
     <link rel="stylesheet" href="css/about-content/about.css">
     <link rel="stylesheet" href="css/IQAC/iqac.css">
+    <link rel="stylesheet" href="css/tailwind.css">
 </head>
 <body>
 <?php
@@ -42,23 +43,71 @@ include("header.html");
 
     <!-- Main Content Section where the IQAC content will be loaded -->
     <div id="iqac-content" class="about">
-        <h2>About us</h2>
-        <hr>
-        <p style="font-size: 1.3rem;">
-            
-*Thiruthangal Nadar College*, established in 1997, is a leading co-educational private institution affiliated with the University of Madras. Initially founded as a men’s college, it transitioned to a co-educational institution in 2002, empowering women in North Chennai by providing them with quality education and expanding opportunities.
-        </p>
-        <p style="font-size: 1.3rem;">
-            The college was founded by the *Chennaivazh Thiruthangal Hindu Nadar Uravinmurai Dharma Fund, driven by a mission to support the underprivileged student community. The dedicated management is committed to providing accessible education, fostering students' intellectual and personal growth through the college’s motto, *"Knowledge is Power."** Our primary focus is to ignite the minds of students, dispelling ignorance and promoting enlightenment through a comprehensive educational experience.
-        </p>
-        <h2>Academic Programs</h2> <hr>
-        <p style="font-size: 1.3rem;">
-            We offer a variety of *undergraduate (UG)* and *postgraduate (PG)* programs in the arts and sciences. These programs are designed to equip students with the knowledge, skills, and values necessary for personal and professional success. Accredited with a *B++* rating, Thiruthangal Nadar College has earned recognition for its commitment to academic excellence.
-        </p>
-        <h2>Student Life and Extracurricular Activities</h2><hr>
-        <p style="font-size: 1.3rem;">
-            We believe in holistic development, and students are encouraged to participate in various clubs and organizations, including the *Eco Club, **Student Development Council (SDC), **National Service Scheme (NSS), and **National Cadet Corps (NCC)*. These activities promote leadership, environmental awareness, and civic responsibility.
-        </p>
+        <!-- Header Section -->
+  <header class="bg-green-600 text-white">
+    <div class="container mx-auto p-6">
+      <h1 class="text-3xl font-bold">Campus Life</h1>
+      <p class="text-lg mt-2">Discover the vibrant life at Thiruthangal Nadar College.</p>
+    </div>
+  </header>
+
+  <!-- About Campus Section -->
+  <section class="container mx-auto py-10 px-4">
+    <h2 class="text-2xl font-semibold mb-6 text-center text-green-600">Welcome to Our Campus</h2>
+    <p class="text-lg text-gray-700 leading-relaxed text-center mb-8">
+      Thiruthangal Nadar College provides a dynamic and inclusive campus experience. 
+      From academics to extracurriculars, we ensure every student thrives in a supportive environment.
+    </p>
+    <div class="flex flex-wrap justify-center gap-8">
+      <div class="bg-white shadow-lg rounded-lg p-6 w-80">
+        <img src="https://via.placeholder.com/300" alt="Auditorium" class="rounded-md mb-4">
+        <h3 class="text-xl font-bold text-green-600">State-of-the-Art Auditorium</h3>
+        <p class="text-gray-600 mt-2">Our air-conditioned auditorium hosts various cultural and academic events.</p>
+      </div>
+      <div class="bg-white shadow-lg rounded-lg p-6 w-80">
+        <img src="https://via.placeholder.com/300" alt="Gym" class="rounded-md mb-4">
+        <h3 class="text-xl font-bold text-green-600">Modern Gym Facilities</h3>
+        <p class="text-gray-600 mt-2">Stay fit with our advanced gym equipment available for all students.</p>
+      </div>
+      <div class="bg-white shadow-lg rounded-lg p-6 w-80">
+        <img src="/COLLEGE_WEB/campus_life-club_activites/img/Eco-club.jpeg" alt="Eco Club" class="rounded-md mb-4">
+        <h3 class="text-xl font-bold text-green-600">Eco Club</h3>
+        <p class="text-gray-600 mt-2">Join our eco club and contribute to a greener tomorrow.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Events and Activities Section -->
+  <section class="bg-green-100 py-10">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl font-semibold mb-6 text-center text-green-600">Events & Activities</h2>
+      <div class="flex flex-wrap justify-center gap-8">
+        <div class="bg-white shadow-md rounded-lg p-6 w-96">
+          <h3 class="text-xl font-bold text-green-600">Annual Fest</h3>
+          <p class="text-gray-600 mt-2">A grand celebration of culture, talent, and togetherness.</p>
+        </div>
+        <div class="bg-white shadow-md rounded-lg p-6 w-96">
+          <h3 class="text-xl font-bold text-green-600">Sports Meets</h3>
+          <p class="text-gray-600 mt-2">Inter-departmental and inter-college tournaments in various sports.</p>
+        </div>
+        <div class="bg-white shadow-md rounded-lg p-6 w-96">
+          <h3 class="text-xl font-bold text-green-600">Workshops & Seminars</h3>
+          <p class="text-gray-600 mt-2">Skill development sessions led by industry experts and alumni.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Campus Tour Call-to-Action -->
+  <section class="bg-green-600 text-white py-10">
+    <div class="container mx-auto text-center">
+      <h2 class="text-2xl font-semibold mb-4">Take a Campus Tour</h2>
+      <p class="text-lg mb-6">Experience the vibrant campus life at Thiruthangal Nadar College.</p>
+      <a href="#" class="bg-white text-green-600 px-6 py-3 rounded-md font-bold hover:bg-green-500 hover:text-white transition">
+        View Our Campus
+      </a>
+    </div>
+  </section>
     </div>
 </section>
   <?php 
