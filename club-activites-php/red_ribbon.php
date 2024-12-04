@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Red-Ribbon-cub</title>
     <?php
-    include('style.html');
+    include('../style-php.html');
     ?>
     <link rel="stylesheet" href="css/tailwind.css">
 </head>
 <body>
     <?php
-    include('header.html');
+    include('../header.html');
     ?>
     <br>
     <header class="bg-[#a30000] text-white text-center py-6" >
@@ -69,7 +69,7 @@
         </div>
         <br>
     <?php
-    include('footer.html');
+    include('../footer.html');
     ?>
 </body>
 </html>

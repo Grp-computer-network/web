@@ -158,30 +158,34 @@
             </div>
         </div>
         <div id="content-4" class="tab-content">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <!-- Cultural Fest Images -->
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="https://i.ibb.co/YPKJFbh/event1.jpg" alt="Event 1" class="h-40 w-full object-cover">
-                    <div class="p-2">
-                        <h3 class="text-sm font-bold">Cultural Fest - Dance</h3>
-                        <p class="text-xs text-gray-500">An electrifying dance performance.</p>
-                    </div>
-                </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="https://i.ibb.co/0mW8Xv8/event2.jpg" alt="Event 2" class="h-40 w-full object-cover">
-                    <div class="p-2">
-                        <h3 class="text-sm font-bold">Cultural Fest - Music</h3>
-                        <p class="text-xs text-gray-500">Mesmerizing musical evening.</p>
-                    </div>
-                </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="https://i.ibb.co/DbDRsNH/event3.jpg" alt="Event 3" class="h-40 w-full object-cover">
-                    <div class="p-2">
-                        <h3 class="text-sm font-bold">Cultural Fest - Art</h3>
-                        <p class="text-xs text-gray-500">Students showcasing art pieces.</p>
-                    </div>
-                </div>
-            </div>
+        <div class="relative w-full max-w-3xl mx-auto overflow-hidden">
+  <!-- Carousel Content -->
+      <div id="carousel" class="flex transition-transform duration-300 ease-in-out">
+        <div class="w-full flex-shrink-0">
+          <img src="/COLLEGE_WEB/assets//Gallery-clg//Freshers_day_pics//TNC_Freshers_Day_2024_1-scaled.jpeg" alt="Slide 1" class="w-full">
+        </div>
+        <div class="w-full flex-shrink-0">
+          <img src="/COLLEGE_WEB/assets//Gallery-clg//Freshers_day_pics//TNC_Freshers_Day_2024_3-768x432.jpeg" alt="Slide 2" class="w-full">
+        </div>
+        <div class="w-full flex-shrink-0">
+          <img src="/COLLEGE_WEB/assets//Gallery-clg//Freshers_day_pics//TNC_Freshers_Day_2024_4-768x432.jpeg" alt="Slide 3" class="w-full">
+        </div> 
+        <div class="w-full flex-shrink-0">
+          <img src="/COLLEGE_WEB/assets//Gallery-clg//Freshers_day_pics//TNC_Freshers_Day_2024_5-scaled.jpeg" alt="Slide 4" class="w-full">
+       </div>
+  <!-- Buttons -->
+  <button 
+    id="prevButton" 
+    class="absolute top-1/2 left-4 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full shadow-md hover:bg-gray-700">
+    &#10094; <!-- Left Arrow -->
+  </button>
+  <button 
+    id="nextButton" 
+    class="absolute top-1/2 right-4 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full shadow-md hover:bg-gray-700">
+    &#10095; <!-- Right Arrow -->
+  </button>
+</div>
+     </div>
         </div>
 
     </section>
@@ -189,23 +193,7 @@
     <?php
     include('footer.html');
     ?>
-
-    <!-- JavaScript -->
-    <script>
-        // Tab functionality
-        const tabs = document.querySelectorAll('.tab-btn');
-        const contents = document.querySelectorAll('.tab-content');
-
-        tabs.forEach((tab, index) => {
-            tab.addEventListener('click', () => {
-                tabs.forEach(t => t.classList.remove('bg-blue-600', 'text-white'));
-                tab.classList.add('bg-blue-600', 'text-white');
-
-                contents.forEach(content => content.classList.add('hidden'));
-                contents[index].classList.remove('hidden');
-            });
-        });
-    </script>
+<script  src="/COLLEGE_WEB/script//gallery_script.js"></script>
 </body>
 
 </html>
