@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Slideshow</title>
+  <style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+      }
+      
+      .slideshow-container {
+        position: relative;
+        max-width: 1000px;
+        margin: auto;
+        overflow: hidden;
+      }
+      
+      .slide {
+        display: none;
+      }
+      
+      img {
+        width: 100%;
+        height: auto;
+      }
+      
+      .prev, .next {
+        position: absolute;
+        top: 50%;
+        padding: 16px;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.5);
+        border: none;
+        cursor: pointer;
+        user-select: none;
+        transform: translate(0, -50%);
+      }
+      
+      .prev {
+        left: 0;
+      }
+      
+      .next {
+        right: 0;
+      }
+      
+      .prev:hover, .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+
+      .images1{
+        width:50%;
+        height: 50%;
+        margin: 10px;
+      }
+
+      .images2{
+        width:30%;
+        height:30%;
+        margin: 10px;
+      }
+
+      h5{
+        padding:5px;
+        color:red;
+      }
+  </style>
+</head>
+<body>
+
+<div class="slideshow-container">
+        <div class="slide fade">
+          <img src="assets/central_facilities_img/girl_park_img1.jpg" alt="Image 1">
+        </div>
+        <div class="slide fade">
+          <img src="assets/central_facilities_img/girl_park_img2.jpg" alt="Image 2">
+        </div>
+        <div class="slide fade">
+          <img src="assets/central_facilities_img/girl_park_img3.jpg" alt="Image 3">
+        </div>
+        <div class="slide fade">
+            <img src="assets/central_facilities_img/girl_park_img4.jpg" alt="Image 3">
+        </div>
+        <div class="slide fade">
+            <img src="assets/central_facilities_img/girl_park_img5.jpg" alt="Image 3">
+        </div>
+        <div class="slide fade">
+            <img src="assets/central_facilities_img/girl_park_img6.jpg" alt="Image 3">
+        </div>
+        <div class="slide fade">
+            <img src="assets/central_facilities_img/girl_park_img7.jpg" alt="Image 3">
+        </div>
+          
+    
+        <!-- Left and right arrows -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<!--<div class="slideshow-container">
+    <div class="slide fade">
+      <img src="assets/central_facilities_img/boy_park_img1.jpg" alt="Image 1">
+    </div>
+    <div class="slide fade">
+      <img src="assets/central_facilities_img/boy_park_img2.jpg" alt="Image 2">
+    </div>
+    <div class="slide fade">
+      <img src="assets/central_facilities_img/boy_park_img3.jpg" alt="Image 3">
+    </div>
+    <div class="slide fade">
+        <img src="assets/central_facilities_img/boy_park_img4.jpg" alt="Image 3">
+    </div>
+    <div class="slide fade">
+        <img src="assets/central_facilities_img/boy_park_img5.jpg" alt="Image 3">
+    </div>
+      
+
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>-->
+
+<center>
+<div class="images1">
+    <h5>Language Lab</h5>
+
+    <img src="assets/central_facilities_img/language_lab_img.jpg" alt="">
+</div>
+</center>
+
+<center>
+<div class="images2">
+    <h5>Tailoring Class</h5>
+    <img src="assets/central_facilities_img/tailoring_class_img.jpeg" alt="">
+</div>
+</center>
+
+
+  <script>
+    let slideIndex = 0;
+
+function showSlides() {
+  let slides = document.getElementsByClassName("slide");
+  
+  // Loop through all slides and hide them
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  
+  slideIndex++;
+  
+  if (slideIndex > slides.length) {
+    slideIndex = 1;
+  }
+
+  slides[slideIndex - 1].style.display = "block";
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
+
+function plusSlides(n) {
+  slideIndex += n;
+
+  let slides = document.getElementsByClassName("slide");
+  
+  if (slideIndex > slides.length) {
+    slideIndex = 1;
+  } else if (slideIndex < 1) {
+    slideIndex = slides.length;
+  }
+
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+
+  slides[slideIndex - 1].style.display = "block";
+}
+
+// Initialize the slideshow
+showSlides();
+  </script>
+</body>
+</html>
+
+
