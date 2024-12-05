@@ -13,11 +13,11 @@
 </head>
 <body>
     <?php 
-    include('header.html');
+    include('reuseable_files/header.html');
     ?> 
 
 <div class="title-iqac">
-        <h1>RESEARCH</h1>
+        <h1 style='font-size:23px; font-weight:bold;'>RESEARCH</h1>
     </div>
     <!-- IQAC Section -->
     <section id="iqac-container">
@@ -27,9 +27,6 @@
                 <li><a href="research/research_guidelines.html" class="iqac-link">Research Guidelines</a></li>
                 <li><a href="research/phd_admission_guidelines.html" class="iqac-link">PH.D Admission Guidelines</a></li>
                 <li><a href="research/central_facilities.html" class="iqac-link">Central Facilities</a></li>
-
-
-
                 <!-- More Sub-Navigation Links -->
             </ul>
         </nav>
@@ -42,7 +39,7 @@
     </section>
 
     <?php 
-    include("footer.html");
+    include("reuseable_files/footer.html");
     ?>
     
                      <!-- admission pop-up-->

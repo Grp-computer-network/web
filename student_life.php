@@ -19,7 +19,7 @@
 </head>
 <body>
 <?php
-include("header.html");
+include("reuseable_files/header.html");
 ?>    
 <!------------------------------------------------------------------------------------------------ -->
 <div class="title-iqac">
@@ -63,12 +63,9 @@ include("header.html");
     </div>
 </section>
   <?php 
-  include("footer.html");
+  include("reuseable_files/footer.html");
   ?>     
-
-
-             <!-- ----------------------- admission pop-up     -------------------------------------->
-              
+             <!-- ----------------------- admission pop-up     -------------------------------------->   
 <div id="admissionModal" class="form">
     <div class="form-model">
       <span class="close-Btn">&times;</span>

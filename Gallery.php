@@ -19,11 +19,10 @@
     <link rel="stylesheet" href="css/IQAC/iqac.css">
     <link rel="stylesheet" href="css/tailwind.css">
 </head>
-
 <body>
 
     <?php
-    include("header.html");
+    include("reuseable_files/header.html");
     ?> <br>
     <!-- Header -->
     <header class="bg-blue-600 text-white py-5 text-center">
@@ -191,7 +190,7 @@
     </section>
     <!-- End Image Grid -->
     <?php
-    include('footer.html');
+    include('reuseable_files/footer.html');
     ?>
 <script  src="/COLLEGE_WEB/script//gallery_script.js"></script>
 </body>

@@ -10,17 +10,13 @@
     <link rel="stylesheet" href="css/home-content-style/addmission.css">
     <link href="css/tailwind.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    
-
-
 </head>
 <body>
     <?php 
-    include("header.html");
+    include("reuseable_files/header.html");
     ?>
-
     <div class="title-iqac">
-        <h1>ADMISSION</h1>
+        <h1 style='font-size:23px; font-weight:bold;'>ADMISSION</h1>
     </div>
     <!-- IQAC Section -->
     <section id="iqac-container">
@@ -30,66 +26,19 @@
                 <li><a href="admission/courses_offered.html" class="iqac-link">Programme Offered</a></li>
                 <li><a href="admission/admission_guidelines.html" class="iqac-link">Guideliness For Admission</a></li>
                 <li><a href="admission/online_application.html" class="iqac-link">Online Application</a></li>
-
-
-
                 <!-- More Sub-Navigation Links -->
             </ul>
         </nav>
-
         <!-- Main Content Section where the IQAC content will be loaded -->
         <div id="iqac-content">
             <h2>Welcome to IQAC</h2>
             <p>This section will dynamically update when you click on the sub-navigation links.</p>
         </div>
     </section>
-
-    <footer class="footer">
-        <div class="footer-container">
-            <!-- About Section -->
-            <div class="footer-section about">
-                <h3>About Us</h3>
-                <p>
-                    Thiruthangal Nadar College is dedicated to delivering quality education and fostering an environment conducive to academic excellence and personal growth.
-                </p>
-            </div>
-    
-            <!-- Quick Links -->
-            <div class="footer-section quick-links">
-                <h3>Quick Links</h3>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Admissions</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                </ul>
-            </div>
-    
-            <!-- Contact Information -->
-            <div class="footer-section contact">
-                <h3>Contact Us</h3>
-                <p>
-                    Thiruthangal Nadar College<br>
-                    Selavayal, Near Kannadasan Nagar, Chennai<br>
-                    Phone: 044 – 25941717 / 044 – 25942525<br>
-                    Email: <a href="mailto:principal@thiruthangalnadarcollege.edu.in">principal@thiruthangalnadarcollege.edu.in</a>
-                </p>
-                <div class="social-links">
-                    <a href="https://www.facebook.com/people/Tnc-Arts/pfbid02LgEP44ZPwVFyL3fxspKVGWHezXGR9cGDg3ocPWMov3txYePpXHzQFNiZCSmxVvWal/?rdid=RTSraMyE9t2mWfVj&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FjR4ZAtfitS9vTjkk"><i class="fab fa-facebook"></i></a>
-                    <a href="https://www.youtube.com/@thiruthangalnadarcollege9032"><i class="fab fa-youtube"></i></a>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://www.instagram.com/thiruthangal_nadar_college_97/"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            &copy; 2024 Thiruthangal Nadar College. All Rights Reserved.
-        </div>
-        <!-- Your existing footer content here -->
-    </footer>
-
+<?php 
+include('reuseable_files/footer.html');
+?>
     <!--Admission Form -->
-
 <div id="admissionModal" class="form">
     <div class="form-model">
       <span class="close-Btn">&times;</span>

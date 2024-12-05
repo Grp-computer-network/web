@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eco-club</title>
     <?php
-    include('../style-php.html');
+    include('../reuseable_files/style-php.html');
     ?>
     <link rel="stylesheet" href="css/tailwind.css">
 </head>
 <body>
     <?php
-    include('../header.html');
+    include('../reuseable_files/header.html');
     ?>
     <br>
     <header class="bg-[#228B22] text-white text-center py-6" >
@@ -57,7 +57,7 @@
      </div>
     
     <?php
-    include('../footer.html');
+    include('../reuseable_files/footer.html');
     ?>
 </body>
 </html>
