@@ -193,6 +193,7 @@
     include('reuseable_files/footer.html');
     ?>
 <script  src="/COLLEGE_WEB/script//gallery_script.js"></script>
+<script src="script/fixed-nav.js"></script>  
 </body>
 
 </html>
