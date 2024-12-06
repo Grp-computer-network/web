@@ -630,8 +630,6 @@ video {
   margin-bottom: 0.5rem;
 }
 
-<<<<<<< HEAD
-=======
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -640,7 +638,6 @@ video {
   margin-bottom: 1.5rem;
 }
 
->>>>>>> 483347c8c74d5f03e93d0c626f9b6029d8b6d9ff
 .mb-8 {
   margin-bottom: 2rem;
 }
@@ -649,8 +646,6 @@ video {
   margin-left: 0.5rem;
 }
 
-<<<<<<< HEAD
-=======
 .mt-1 {
   margin-top: 0.25rem;
 }
@@ -659,7 +654,6 @@ video {
   margin-top: 0.5rem;
 }
 
->>>>>>> 483347c8c74d5f03e93d0c626f9b6029d8b6d9ff
 .mt-3 {
   margin-top: 0.75rem;
 }
@@ -672,8 +666,6 @@ video {
   margin-top: 1.25rem;
 }
 
-<<<<<<< HEAD
-=======
 .mt-6 {
   margin-top: 1.5rem;
 }
@@ -686,7 +678,6 @@ video {
   display: block;
 }
 
->>>>>>> 483347c8c74d5f03e93d0c626f9b6029d8b6d9ff
 .inline-block {
   display: inline-block;
 }
@@ -778,8 +769,6 @@ video {
   max-width: 64rem;
 }
 
-<<<<<<< HEAD
-=======
 .max-w-6xl {
   max-width: 72rem;
 }
@@ -788,7 +777,6 @@ video {
   max-width: 85rem;
 }
 
->>>>>>> 483347c8c74d5f03e93d0c626f9b6029d8b6d9ff
 .max-w-\[90rem\] {
   max-width: 90rem;
 }
@@ -825,6 +813,10 @@ video {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -845,10 +837,6 @@ video {
   justify-content: space-between;
 }
 
-<<<<<<< HEAD
-.gap-4 {
-  gap: 1rem;
-=======
 .justify-around {
   justify-content: space-around;
 }
@@ -876,11 +864,6 @@ video {
 .gap-x-1 {
   -moz-column-gap: 0.25rem;
        column-gap: 0.25rem;
->>>>>>> 483347c8c74d5f03e93d0c626f9b6029d8b6d9ff
-}
-
-.gap-8 {
-  gap: 2rem;
 }
 
 .gap-x-5 {
@@ -1068,8 +1051,6 @@ video {
   padding-right: 1rem;
 }
 
-<<<<<<< HEAD
-=======
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -1080,7 +1061,6 @@ video {
   padding-right: 1.5rem;
 }
 
->>>>>>> 483347c8c74d5f03e93d0c626f9b6029d8b6d9ff
 .py-0 {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -1101,8 +1081,6 @@ video {
   padding-bottom: 0.75rem;
 }
 
-<<<<<<< HEAD
-=======
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -1113,7 +1091,6 @@ video {
   padding-bottom: 1.5rem;
 }
 
->>>>>>> 483347c8c74d5f03e93d0c626f9b6029d8b6d9ff
 .pb-12 {
   padding-bottom: 3rem;
 }
@@ -1263,8 +1240,6 @@ video {
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
-<<<<<<< HEAD
-=======
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -1277,13 +1252,6 @@ video {
 .shadow-md {
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
->>>>>>> 483347c8c74d5f03e93d0c626f9b6029d8b6d9ff
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.shadow-lg {
-  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
