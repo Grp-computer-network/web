@@ -192,8 +192,15 @@
     <?php
     include('reuseable_files/footer.html');
     ?>
+
+    <!--Admission form-->
+    <?php 
+        include('reuseable_files/admmision-pop_up.html');  
+        ?>
+
 <script  src="/COLLEGE_WEB/script//gallery_script.js"></script>
 <script src="script/fixed-nav.js"></script>  
+<script src="./script/addmission.js"></script>
 </body>
 
 </html>
