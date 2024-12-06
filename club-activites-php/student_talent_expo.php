@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <?php
-    include('style.html');
+    include('../reuseable_files/style-php.html');
     ?>
     <link rel="stylesheet" href="css/tailwind.css">
 </head>
 <body>
     <?php
-    include('header.html');
+    include('../reuseable_files/header.html');
     ?>
     <br>
     <h1 class="text-3xl font-semibold text-[#a30000] text-center">Students Talent Expo Club</h1>
@@ -58,7 +58,7 @@
     </div>
      </div>
     <?php
-    include('footer.html');
+    include('../reuseable_files/footer.html');
     ?>
 </body>
 </html>

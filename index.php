@@ -5,16 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thiruthangal Nadar college </title>
     <?php 
-    include('style.html');
+    include('reuseable_files/style.html');
     ?>
 </head>
 <body>
     <!-- Header Section -->
   <?php
-  include("header.html");
+  include("reuseable_files/header.html");
   ?>
-  
-    <!-- End-Header Section -->
    <!--Hero Banner-->         
    <section class="hero-banner">
     <div class="slideshow-container">
@@ -281,7 +279,7 @@
 
 <!-- footer-->
  <?php
-   include("footer.html");
+   include("reuseable_files/footer.html");
  ?>    
     <!--Pop-up Poster -->
 <div id="popupPoster" class="modal">
@@ -335,9 +333,7 @@
       </form>
     </div>
   </div>
-  
 <!--Form End-->
-
 <script  src="./script/script.js"></script>
 <script src="./script/addmission.js"></script>
 <script src="script/fixed-nav.js"></script>   

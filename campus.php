@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>campus life</title>
-    
     <!--Main style sheets for nav-bar anad body content-->
     <link rel="stylesheet" href="css/home-content-style/styles.css">
     <!--style for foooter-->
@@ -21,7 +20,7 @@
 </head>
 <body>
 <?php
-include("header.html");
+include("reuseable_files/header.html");
 ?>    
 <!------------------------------------------------------------------------------------------------ -->
 <div class="title-iqac">
@@ -40,7 +39,6 @@ include("header.html");
             <li><a href="campus_life/extension_activities.html" class="iqac-link">Extension Activity</a></li>
         </ul>
     </nav>
-
     <!-- Main Content Section where the IQAC content will be loaded -->
     <div id="iqac-content" class="about">
         <!-- Header Section -->
@@ -60,23 +58,22 @@ include("header.html");
     </p>
     <div class="flex flex-wrap justify-center gap-8">
       <div class="bg-white shadow-lg rounded-lg p-6 w-80">
-        <img src="https://via.placeholder.com/300" alt="Auditorium" class="rounded-md mb-4">
+        <img src="/COLLEGE_WEB/assets//img//campus_life_pics//outdoor_stage.jpg" alt="Auditorium" class="rounded-md mb-4">
         <h3 class="text-xl font-bold text-green-600">State-of-the-Art Auditorium</h3>
         <p class="text-gray-600 mt-2">Our air-conditioned auditorium hosts various cultural and academic events.</p>
       </div>
       <div class="bg-white shadow-lg rounded-lg p-6 w-80">
-        <img src="https://via.placeholder.com/300" alt="Gym" class="rounded-md mb-4">
+        <img src="/COLLEGE_WEB/assets//img//campus_life_pics//Gym.jpg" alt="Gym" class="rounded-md mb-4">
         <h3 class="text-xl font-bold text-green-600">Modern Gym Facilities</h3>
         <p class="text-gray-600 mt-2">Stay fit with our advanced gym equipment available for all students.</p>
       </div>
       <div class="bg-white shadow-lg rounded-lg p-6 w-80">
-        <img src="/COLLEGE_WEB/campus_life-club_activites/img/Eco-club.jpeg" alt="Eco Club" class="rounded-md mb-4">
+        <img src="/COLLEGE_WEB/assets//img//campus_life_pics//ECO-GREEN.jpg" alt="Eco Club" class="rounded-md mb-4">
         <h3 class="text-xl font-bold text-green-600">Eco Club</h3>
         <p class="text-gray-600 mt-2">Join our eco club and contribute to a greener tomorrow.</p>
       </div>
     </div>
   </section>
-
   <!-- Events and Activities Section -->
   <section class="bg-green-100 py-10">
     <div class="container mx-auto px-4">
@@ -111,12 +108,9 @@ include("header.html");
     </div>
 </section>
   <?php 
-  include("footer.html");
+  include("reuseable_files/footer.html");
   ?>     
-
-
-             <!-- ----------------------- admission pop-up     -------------------------------------->
-              
+  <!-- ----------------------- admission pop-up     -------------------------------------->
 <div id="admissionModal" class="form">
     <div class="form-model">
       <span class="close-Btn">&times;</span>
@@ -159,5 +153,6 @@ include("header.html");
   </div>
     <script src="script/addmission.js"></script>
     <script src="script/iqac.js"></script>
+<script src="script/fixed-nav.js"></script>  
 </body>
 </html>

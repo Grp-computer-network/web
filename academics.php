@@ -19,7 +19,7 @@
 </head>
 <body>
 <?php
-include("header.html");
+include("reuseable_files/header.html");
 ?>    
 <div class="title-iqac">
     <h1 style='font-size:23px; font-weight:bold;'>Academics</h1>
@@ -59,10 +59,8 @@ include("header.html");
     </div>
 </section>
   <?php 
-  include("footer.html");
+  include("reuseable_files/footer.html");
   ?>     
-
-
              <!-- ----------------------- admission pop-up     -------------------------------------->
               
 <div id="admissionModal" class="form">
@@ -107,5 +105,6 @@ include("header.html");
   </div>
     <script src="script/addmission.js"></script>
     <script src="script/iqac.js"></script>
+<script src="script/fixed-nav.js"></script>  
 </body>
 </html>
