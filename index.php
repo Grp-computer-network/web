@@ -17,19 +17,16 @@
    <section class="hero-banner">
     <div class="slideshow-container">
         <div class="marquee-container">
-            
         <!-- Slide 1 -->
         <div class="mySlides fade">
             <img src="./assets/carosule/1.png" alt="Slide 1" style="width:100%">
             <div class="text">Welcome to Thiruthangal nadar college</div>
         </div>
-        
         <!-- Slide 2 -->
         <div class="mySlides fade">
             <img src="./assets/carosule/2.png" alt="Slide 2" style="width:100%">
             <div class="text">Empowering Education</div>
         </div>
-        
         <!-- Slide 3 -->
         <div class="mySlides fade">
             <img src="./assets/carosule/3.png" alt="Slide 3" style="width:100%" >
@@ -275,8 +272,7 @@
             </div>
         </div>
     </div>
-<!------------------------------------------------------------------------------------------------ -->
-
+<!------------------------------------------------------------------------------------------------ --
 <!-- footer-->
  <?php
    include("reuseable_files/footer.html");

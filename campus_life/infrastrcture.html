@@ -3,98 +3,136 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>College Infrastructure</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link
-    rel="stylesheet"
-    href="https://unpkg.com/swiper/swiper-bundle.min.css"
-  />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/tailwind.css">
 </head>
-<body class="bg-gray-100">
-  <!-- Infrastructure Section -->
-  <section class="py-12 px-6 md:px-12 lg:px-24">
-    <div class="text-center">
-      <h1 class="text-4xl font-bold text-gray-800 mb-4">Our College Infrastructure</h1>
-      <p class="text-gray-600 max-w-2xl mx-auto">
-        Explore our state-of-the-art infrastructure designed to provide the best learning environment, including spacious classrooms, a modern library, and cutting-edge laboratories.
-      </p>
-    </div>
-
-    <!-- Carousel Section -->
-    <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8">
-
-      <!-- Library Section -->
-      <div class="bg-white rounded-lg shadow-md p-4">
-        <h2 class="font-semibold text-lg text-gray-700 mb-2">Library</h2>
-        <p class="text-sm text-gray-500 mb-4">A serene space with an extensive collection of books and resources.</p>
-        <!-- Swiper Carousel -->
-        <div class="swiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <img src="/COLLEGE_WEB/assets/img/1.png" alt="Library 1" class="rounded-lg">
-            </div>
-            <div class="swiper-slide">
-              <img src="/COLLEGE_WEB/assets/img/2-1.png" alt="Library 2" class="rounded-lg">
-            </div>
-            <div class="swiper-slide">
-              <img src="/COLLEGE_WEB/assets/img/3-1.png" alt="Library 3" class="rounded-lg">
-            </div>
-          </div>
-          <!-- Pagination -->
-          <div class="swiper-pagination"></div>
-        </div>
-      </div>
-      <!-- Auditorium Section -->
-      <div class="bg-white rounded-lg shadow-md p-4">
-        <h2 class="font-semibold text-lg text-gray-700 mb-2">Auditorium</h2>
-        <p class="text-sm text-gray-500 mb-4">A fully equipped indoor auditorium for events and seminars.</p>
-        <div class="swiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <img src="https://via.placeholder.com/300x200" alt="Auditorium 1" class="rounded-lg">
-            </div>
-            <div class="swiper-slide">
-              <img src="https://via.placeholder.com/300x200" alt="Auditorium 2" class="rounded-lg">
-            </div>
-            <div class="swiper-slide">
-              <img src="https://via.placeholder.com/300x200" alt="Auditorium 3" class="rounded-lg">
-            </div>
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-      </div>
-
-      <!-- Sports Ground Section -->
-      <div class="bg-white rounded-lg shadow-md p-4">
-        <h2 class="font-semibold text-lg text-gray-700 mb-2">Sports Ground</h2>
-        <p class="text-sm text-gray-500 mb-4">Open grounds for outdoor sports and athletics.</p>
-        <div class="swiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <img src="https://via.placeholder.com/300x200" alt="Sports Ground 1" class="rounded-lg">
-            </div>
-            <div class="swiper-slide">
-              <img src="https://via.placeholder.com/300x200" alt="Sports Ground 2" class="rounded-lg">
-            </div>
-            <div class="swiper-slide">
-              <img src="https://via.placeholder.com/300x200" alt="Sports Ground 3" class="rounded-lg">
-            </div>
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
+<body>
+  <header class="bg-[#a30000] text-white text-center py-6" >
+    <h1 class="text-3xl font-bold">Infrastructure</h1>
+</header>
+<br>
+  <!-- Image Grid -->
+   <h1 class="text-black font-semibold text-center" style="font-size: 30px;">College View</h1>
+   <br>
+<div class="grid grid-cols-2 sm:grid-cols-3 gap-2">
+  <a class="group block relative overflow-hidden rounded-lg" href="#">
+    <img class="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800" src="/COLLEGE_WEB/assets/img/college-view(1).jpeg" alt="Project">
+    <div class="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
+      <div class="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+        <svg class="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <span class="text-xs">View</span>
       </div>
     </div>
-  </section>
-  <!-- Swiper.js -->
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script>
-    const swiper = new Swiper('.swiper', {
-      loop: true,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-    });
-  </script>
+  </a>
+
+  <a class="group block relative overflow-hidden rounded-lg" href="#">
+    <img class="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800" src="/COLLEGE_WEB/assets/img/college-view(2).jpeg" alt="Project">
+    <div class="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
+      <div class="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+        <svg class="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <span class="text-xs">View</span>
+      </div>
+    </div>
+  </a>
+
+  <a class="group block relative overflow-hidden rounded-lg" href="#">
+    <img class="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800" src="/COLLEGE_WEB/assets/img/college-view(3).jpeg" alt="Project">
+    <div class="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
+      <div class="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+        <svg class="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <span class="text-xs">View</span>
+      </div>
+    </div>
+  </a>
+
+  <a class="group block relative overflow-hidden rounded-lg" href="#">
+    <img class="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800" src="/COLLEGE_WEB/assets/img/college-view(4).jpeg" alt="Project">
+    <div class="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
+      <div class="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+        <svg class="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <span class="text-xs">View</span>
+      </div>
+    </div>
+  </a>
+
+  <a class="group block relative overflow-hidden rounded-lg" href="#">
+    <img class="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800" src="/COLLEGE_WEB/assets/img/college-view(5).jpg" alt="Project">
+    <div class="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
+      <div class="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+        <svg class="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <span class="text-xs">View</span>
+      </div>
+    </div>
+  </a>
+
+  <a class="group block relative overflow-hidden rounded-lg" href="#">
+    <img class="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800" src="/COLLEGE_WEB/assets/img/college-view(6).jpg" alt="Project">
+    <div class="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
+      <div class="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+        <svg class="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <span class="text-xs">View</span>
+      </div>
+    </div>
+  </a>
+</div>
+<!-- End Image Grid -->
+ <br>
+ <h1 class="text-black font-semibold text-center" style="font-size: 30px;">Parking lot</h1>
+<br>
+<div class="grid grid-cols-2 sm:grid-cols-2 gap-2">
+<a class="group block relative overflow-hidden rounded-lg" href="#">
+ <img class="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800" src="/COLLEGE_WEB/assets/Gallery-clg/infrastrcture/parking-lot(1).jpeg" alt="Project">
+ <div class="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
+   <div class="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+     <svg class="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+     <span class="text-xs">View</span>
+   </div>
+ </div>
+</a>
+<a class="group block relative overflow-hidden rounded-lg" href="#">
+ <img class="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800" src="/COLLEGE_WEB/assets/Gallery-clg/infrastrcture/parking-lot(2) copy.jpeg" alt="Project">
+ <div class="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
+   <div class="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+     <svg class="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+     <span class="text-xs">View</span>
+   </div>
+ </div>
+</a>
+</div>
+<br>
+<h1 class="text-black font-semibold text-center" style="font-size: 30px;">computer labs</h1>
+<br>
+<div class="grid grid-cols-2 sm:grid-cols-3 gap-2">
+<a class="group block relative overflow-hidden rounded-lg" href="#">
+<img class="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800" src="/COLLEGE_WEB/assets/Gallery-clg/infrastrcture/lab(1).jpeg" alt="Project">
+<div class="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
+  <div class="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+    <svg class="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+    <span class="text-xs">View</span>
+  </div>
+</div>
+</a>
+<a class="group block relative overflow-hidden rounded-lg" href="#">
+<img class="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800" src="/COLLEGE_WEB/assets/Gallery-clg/infrastrcture/lab(2).jpeg" alt="Project">
+<div class="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
+  <div class="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+    <svg class="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+    <span class="text-xs">View</span>
+  </div>
+</div>
+</a>
+
+<a class="group block relative overflow-hidden rounded-lg" href="#">
+  <img class="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800" src="/COLLEGE_WEB/assets/Gallery-clg/infrastrcture/lab(3).jpeg" alt="Project">
+  <div class="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
+    <div class="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+      <svg class="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+      <span class="text-xs">View</span>
+    </div>
+  </div>
+  </a>
+</div>
+<!-- End Image Grid -->
+<!-- End Image Grid -->
 </body>
 </html>
