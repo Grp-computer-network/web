@@ -102,9 +102,6 @@
                     </div>
                 </div>
                   <!-- on the <p></p> add our recent events and news-->
-                  <?php 
-                  include('./reuseable_files/dynamic_upadate_files/current_news_events.php')
-                  ?>
                     <a href="#" class="annual-calendar-btn">Annual Academic Calendar 2024-25 →</a>
                 </div>
             </div>        
