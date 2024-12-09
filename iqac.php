@@ -62,7 +62,7 @@ include("reuseable_files/header.html");
 ?>
         <!--Admission Form -->
         <?php 
-        include('reuseable_files/admmision-pop_up.html');  
+        include('addmission_form/admission_form.html');  
         ?>
 <!--Form End-->
      <script src="script/script.js"></script>

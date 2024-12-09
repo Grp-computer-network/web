@@ -102,6 +102,10 @@
                     </div>
                 </div>
                   <!-- on the <p></p> add our recent events and news-->
+<<<<<<< HEAD
+=======
+                  
+>>>>>>> 29f89ed5cdd09a4951439e6f6ed329663490dddd
                     <a href="#" class="annual-calendar-btn">Annual Academic Calendar 2024-25 →</a>
                 </div>
             </div>        
@@ -257,7 +261,7 @@
 <!--------------------------------------------------------------------------------------------------->
 <!--Modal Pop-up Poster end-->
 <?php
-include('reuseable_files/admmision-pop_up.html');
+include('addmission_form/admission_form.html');
 ?>
 <!--Form End-->
 <script  src="./script/script.js"></script>
