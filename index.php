@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thiruthangal Nadar college </title>
+    <title>Thiruthangal Nadar college | Academic Excellence</title>
+    <meta name="description" content="Thiruthangal nadar college offers quality educayion,holistics student development, and state-of-the-art facilities in North chennai.">
     <?php 
     include('reuseable_files/style.html');
     ?>
@@ -33,29 +34,27 @@
             <div class="text">Innovating the Future</div>
         </div>
         <div class="mySlides fade">
-            <img src="./assets/carosule/4.png" alt="Slide 3" style="width:100%">
+            <img src="./assets/carosule/4.png" alt="Slide 4" style="width:100%">
             <div class="text">Innovating the Future</div>
         </div>
         
         <div class="mySlides fade">
-            <img src="./assets/carosule/5.png" alt="Slide 3" style="width:100%">
+            <img src="./assets/carosule/5.png" alt="Slide 4" style="width:100%">
             <div class="text">Innovating the Future</div>
         </div>
         
         <div class="mySlides fade">
-            <img src="./assets/carosule/6.png" alt="Slide 3" style="width:100%">
+            <img src="./assets/carosule/6.png" alt="Slide 5" style="width:100%">
             <div class="text">Innovating the Future</div>
         </div>
-
-        
         <!-- Navigation Dots -->
         <div class="dots">
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
             <span class="dot" onclick="currentSlide(3)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
         </div>
     </div>
 </section>
@@ -103,37 +102,13 @@
                     </div>
                 </div>
                   <!-- on the <p></p> add our recent events and news-->
-                <div class="right-section">
-                    <h2>Current News & Events</h2>
-                    <div class="events-wrapper">
-                        <ul class="events-list">
-                            <li class="event-item">
-                                <span class="date">05 Sep</span>
-                                <p>Teachers' Day</p>
-                            </li>
-                            <li class="event-item">
-                                <span class="date">06 Sep</span>
-                                <p>Friday Mass - AICUF</p>
-                            </li>
-                            <li class="event-item">
-                                <span class="date">08 Sep</span>
-                                <p>World Literacy Day</p>
-                            </li>
-                            <li class="event-item">
-                                <span class="date">10 Sep</span>
-                                <p>Mentoring Program</p>
-                            </li>
-                            <li class="event-item">
-                                <span class="date">12 Sep</span>
-                                <p>Sports Day</p>
-                            </li>
-                        </ul>
-                    </div>
+                  <?php 
+                  include('./reuseable_files/dynamic_upadate_files/current_news_events.php')
+                  ?>
                     <a href="#" class="annual-calendar-btn">Annual Academic Calendar 2024-25 →</a>
                 </div>
             </div>        
 <!------------------------------------------------------------------------------------------------ -->
-
              <!--Management message --> 
             <div class="profile-section">
                 <div class="college-info-1">
@@ -149,8 +124,6 @@
                     <h2>Mission</h2>
                     <p>To provide quality and need-based education to student with faclities.</p>
                 </div>
-
-            
                 <div class="profile-cards">
                     
                     <div class="profile-card">
@@ -273,7 +246,7 @@
         </div>
     </div>
 <!------------------------------------------------------------------------------------------------ --
-<!-- footer-->
+<!--- footer-->
  <?php
    include("reuseable_files/footer.html");
  ?>    

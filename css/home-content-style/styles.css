@@ -9,7 +9,6 @@ body{
     zoom: 100%;
 
 }
-
 @media screen and (-webkit-min-device-pixel-ratio:0) {
         body{
             zoom: 80%;
@@ -261,4 +260,8 @@ body.fixed-nav-padding {
         display: inline-block;
         margin-top: 10px;
     }
+}
+.active-class:active{
+    font-weight: bold;
+    text-decoration: underline;
 }
