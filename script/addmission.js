@@ -32,11 +32,4 @@
     }
   });
 
-  // Handle form submission
-  document.getElementById("admissionForm").onsubmit = function(event) {
-    event.preventDefault(); // Prevent page reload on form submission
-    alert("Form submitted successfully!"); // Show success message
-    closeModal(); // Close the modal after submission
-    this.reset(); // Optionally, reset the form fields
-  };
-
+  

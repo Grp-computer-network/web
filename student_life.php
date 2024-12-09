@@ -67,7 +67,7 @@ include("reuseable_files/header.html");
   ?>     
              <!-- ----------------------- admission pop-up     -------------------------------------->   
              <?php 
-        include('reuseable_files/admmision-pop_up.html');  
+        include('addmission_form/admission_form.html');  
         ?>
     <script src="script/addmission.js"></script>
     <script src="script/iqac.js"></script>

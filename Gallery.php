@@ -195,7 +195,7 @@
 
     <!--Admission form-->
     <?php 
-        include('reuseable_files/admmision-pop_up.html');  
+        include('addmission_form/admission_form.html');  
         ?>
 
 <script  src="/COLLEGE_WEB/script//gallery_script.js"></script>
