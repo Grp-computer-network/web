@@ -17,19 +17,16 @@
    <section class="hero-banner">
     <div class="slideshow-container">
         <div class="marquee-container">
-            
         <!-- Slide 1 -->
         <div class="mySlides fade">
             <img src="./assets/carosule/1.png" alt="Slide 1" style="width:100%">
             <div class="text">Welcome to Thiruthangal nadar college</div>
         </div>
-        
         <!-- Slide 2 -->
         <div class="mySlides fade">
             <img src="./assets/carosule/2.png" alt="Slide 2" style="width:100%">
             <div class="text">Empowering Education</div>
         </div>
-        
         <!-- Slide 3 -->
         <div class="mySlides fade">
             <img src="./assets/carosule/3.png" alt="Slide 3" style="width:100%" >
@@ -275,8 +272,7 @@
             </div>
         </div>
     </div>
-<!------------------------------------------------------------------------------------------------ -->
-
+<!------------------------------------------------------------------------------------------------ --
 <!-- footer-->
  <?php
    include("reuseable_files/footer.html");
@@ -290,49 +286,9 @@
   </div>
 <!--------------------------------------------------------------------------------------------------->
 <!--Modal Pop-up Poster end-->
-
-<!--Admission Form -->
-
-<div id="admissionModal" class="form">
-    <div class="form-model">
-      <span class="close-Btn">&times;</span>
-      <h2>Admission Form</h2>
-      <form id="admissionForm">
-        <div class="form-group">
-          <label for="name">Full Name:</label>
-          <input type="text" id="name" name="name" placeholder="Enter your full name" required>
-        </div>
-        
-        <div class="form-group">
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" placeholder="Enter your email" required>
-        </div>
-        
-        <div class="form-group">
-          <label for="phone">Phone Number:</label>
-          <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
-        </div>
-        
-        <div class="form-group">
-          <label for="course">Course Interested In:</label>
-          <select id="course" name="course" required>
-            <option value="" disabled selected>Select a course</option>
-            <option value="B.Com">B.Com</option>
-            <option value="B.Sc">B.Sc</option>
-            <option value="BA">BA</option>
-            <option value="MBA">MBA</option>
-          </select>
-        </div>
-        
-        <div class="form-group">
-          <label for="message">Message:</label>
-          <textarea id="message" name="message" rows="4" placeholder="Additional details (optional)"></textarea>
-        </div>
-  
-        <button type="submit" class="submit-btn">Submit</button>
-      </form>
-    </div>
-  </div>
+<?php
+include('reuseable_files/admmision-pop_up.html');
+?>
 <!--Form End-->
 <script  src="./script/script.js"></script>
 <script src="./script/addmission.js"></script>

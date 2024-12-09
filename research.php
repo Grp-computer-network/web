@@ -44,46 +44,10 @@
     
                      <!-- admission pop-up-->
 
-<div id="admissionModal" class="form">
-    <div class="form-model">
-      <span class="close-Btn">&times;</span>
-      <h2>Admission Form</h2>
-      <form id="admissionForm">
-        <div class="form-group">
-          <label for="name">Full Name:</label>
-          <input type="text" id="name" name="name" placeholder="Enter your full name" required>
-        </div>
+                     <?php 
+        include('reuseable_files/admmision-pop_up.html');  
+        ?>
         
-        <div class="form-group">
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" placeholder="Enter your email" required>
-        </div>
-        
-        <div class="form-group">
-          <label for="phone">Phone Number:</label>
-          <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
-        </div>
-        
-        <div class="form-group">
-          <label for="course">Course Interested In:</label>
-          <select id="course" name="course" required>
-            <option value="" disabled selected>Select a course</option>
-            <option value="B.Com">B.Com</option>
-            <option value="B.Sc">B.Sc</option>
-            <option value="BA">BA</option>
-            <option value="MBA">MBA</option>
-          </select>
-        </div>
-        
-        <div class="form-group">
-          <label for="message">Message:</label>
-          <textarea id="message" name="message" rows="4" placeholder="Additional details (optional)"></textarea>
-        </div>
-  
-        <button type="submit" class="submit-btn">Submit</button>
-      </form>
-    </div>
-  </div>
     <script src="script/addmission.js"></script>
     <script src="script/iqac.js"></script>
     <script src="script/fixed-nav.js"></script>
