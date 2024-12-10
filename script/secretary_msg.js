@@ -1,8 +1,8 @@
-function openModal() {
+function secretary() {
     document.getElementById("SecretaryMessageModal").style.display = "block";
 }
 
-function closeModal() {
+function secretary_close() {
     document.getElementById("SecretaryMessageModal").style.display = "none";
 }
 
