@@ -9,7 +9,7 @@
     include('reuseable_files/style.html');
     ?>
 </head>
-<body>
+<body
     <!-- Header Section -->
   <?php
   include("reuseable_files/header.html");
@@ -176,7 +176,7 @@
         <div class="school-box">
             <img src="https://via.placeholder.com/150" alt="Dr. K. Shanthi">
             <div class="school-content">
-                <div class="school-name" style="background-color: #008f8c;">TNC centre for skill development</div>
+                <div class="school-name" style="background-color: #008f8c;">TNC Incbation cell</div>
                 <div class="school-details">
                     <p>Dr.NAME</p>
                     <p>M.Sc. (IT), Ph.D.</p>
@@ -186,13 +186,13 @@
         </div>
 
         <div class="school-box">
-            <img src="https://via.placeholder.com/150" alt="Dr. K. Umadevi">
+            <img src="/COLLEGE_WEB/carrer_guidance_placement//K.PRABHAKARAN-Photoroom.png" alt="Dr. K. Umadevi">
             <div class="school-content">
-                <div class="school-name" style="background-color:  #0fc2c0;">GNCIES</div>
+                <div class="school-name" style="background-color:  #0fc2c0;">Placement Cell</div>
                 <div class="school-details">
-                    <p>Dr.NAME</p>
-                    <p>M.Com., M.Phil., Ph.D.</p>
-                    <p>Dean - School of Commerce</p>
+                    <p>Mr.K.Prabhakaran</p>
+                    <p> Placement Officer.</p>
+                    <p>(Career Guidance and Placement Cell )</p>
                 </div>
             </div>
         </div>
@@ -212,7 +212,7 @@
         <div class="school-box">
             <img src="https://via.placeholder.com/150" alt="Dr. S. Nirmala Devi">
             <div class="school-content">
-                <div class="school-name" style="background-color:  #008f8c;">GNCCOI</div>
+                <div class="school-name" style="background-color:  #008f8c;">student development council</div>
                 <div class="school-details">
                     <p>Dr. NAME</p>
                     <p>MCA, M.Phil., Ph.D.</p>

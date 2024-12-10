@@ -28,7 +28,7 @@
 </head>
 <body>
 <?php
-  include("../reuseable_files/header.html");
+  include("../reuseable_files/header-php.html");
   ?>
   <br>
    <header class="bg-[#a30000] text-white text-center py-6" >
@@ -157,6 +157,40 @@
     </table>
   </div>
 <br>
+<div class="bg-white py-0 px-4">
+        <!-- Heading -->
+        <h2 class="text-center text-3xl font-bold text-gray-800 mb-8">Placement Record</h2>
+        
+        <!-- Policy Buttons Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 max-w-5xl mx-auto">
+          <!-- Button 1 -->
+          <a href="/COLLEGE_WEB/assets/annual_reports_files/Annual_Report_2023_2024.pdf" target="_blank" class="bg-red-700 text-white flex items-center justify-between py-3 px-4 rounded shadow hover:bg-red-800 text-xl W-50">
+            ANNUAL REPORTS <br> 2023-2024
+            <span class="ml-2 text-white"><i aria-hidden="true" class="fas fa-file-pdf"></i></span>
+          </a>
+          <!-- Button 2 -->
+          <a href="/COLLEGE_WEB/assets/annual_reports_files/2022-2023-Annual-Report.pdf" target="_blank" class="bg-red-700 text-white flex items-center justify-between py-3 px-4 rounded shadow hover:bg-red-800 text-xl">
+            ANNUAL REPORTS <br> 2022-2023
+            <span class="ml-2 text-white"><i aria-hidden="true" class="fas fa-file-pdf"></i></span>
+          </a>
+        </div>
+      </div>
+      <br>
+      <hr class="bg-black h-1">
+      <div class="bg-white py-0 px-4">
+        <!-- Heading -->
+        <h2 class="text-center text-3xl font-bold text-gray-800 mb-8">Annual Reports</h2>
+        
+        <!-- Policy Buttons Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 gap-4 max-w-5xl mx-auto">
+          <!-- Button 1 -->
+          <a href="/COLLEGE_WEB/assets/annual_reports_files/Annual_Report_2023_2024.pdf" target="_blank" class="bg-red-700 text-white flex items-center justify-between py-3 px-4 rounded shadow hover:bg-red-800 text-xl W-50">
+            ANNUAL REPORTS <br> 2023-2024
+            <span class="ml-2 text-white"><i aria-hidden="true" class="fas fa-file-pdf"></i></span>
+          </a>
+        </div>
+      </div>
+      <br>
 <?php
    include("../reuseable_files/footer.html");
  ?> 

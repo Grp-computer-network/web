@@ -14,11 +14,11 @@
 <body>
     <?php 
     include('reuseable_files/header.html');
-    ?> 
+    ?>
 
 <div class="title-iqac">
         <h1 style='font-size:23px; font-weight:bold;'>RESEARCH</h1>
-    </div>
+</div>
     <!-- IQAC Section -->
     <section id="iqac-container">
         <!-- Left-side IQAC Navigation -->
@@ -33,10 +33,41 @@
 
         <!-- Main Content Section where the IQAC content will be loaded -->
         <div id="iqac-content">
-            <h2>Welcome to IQAC</h2>
-            <p>This section will dynamically update when you click on the sub-navigation links.</p>
-        </div>
+        <header class="bg-[#a30000] text-white text-center py-6">
+            <h1 class="text-3xl font-bold">About Research Cell</h1>
+        </header><br>
+        <hr>
+
+        <main class="container mx-auto px-4 py-8">
+            <!-- Introduction Section -->
+            <section class="p-6 mb-8">
+                <p class="text-lg leading-relaxed">The college has Research Cell which creates and encourages Research Culture among the Teaching faculties and students. It Organizes Seminars, Conferences, Training Programs and Workshops in Research Methodology and Research Topics. It Ensures Research Quality, Integrity and Ethics to Publish quality Research Papers. The research committee is constituted under IQAC to monitor and address issues related to research.</p>
+            </section>
+
+            <!-- Objectives Section -->
+            <section class="bg-green-100 py-10">
+                <div class="container mx-auto px-4">
+                    <h2 class="text-2xl font-semibold mb-6 text-center text-green-600">Objectives Of Research Cell</h2>
+                    <div class="flex flex-wrap justify-center gap-8">
+                        <div class="bg-white shadow-md rounded-lg p-6 w-96">
+                            <p class="text-gray-600 mt-2">To encourage , maintain and support research activities in the college.</p>
+                        </div>
+                        <div class="bg-white shadow-md rounded-lg p-6 w-96">
+                            <p class="text-gray-600 mt-2">To evaluate research proposals for research grants.</p>
+                        </div>
+                        <div class="bg-white shadow-md rounded-lg p-6 w-96">
+                            <p class="text-gray-600 mt-2">Advise the college library on recent journals and publications.</p>
+                        </div>
+                        <div class="bg-white shadow-md rounded-lg p-6 w-96">
+                            <p class="text-gray-600 mt-2">To ensure and maintain ethical standards of research in the college.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
     </section>
+    
 
     <?php 
     include("reuseable_files/footer.html");
@@ -50,6 +81,6 @@
         
     <script src="script/addmission.js"></script>
     <script src="script/iqac.js"></script>
-<script src="script/fixed-nav.js"></script>  
+    <script src="script/fixed-nav.js"></script>
 </body>
 </html>
