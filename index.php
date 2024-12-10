@@ -130,16 +130,42 @@
                         <img src="./assets/img/Thiru.A.Narayana-Murthy-Secretary.jpg" alt="Vice Principal">
                         <h3>Secretary</h3>
                         <p>Thiru A.Narayana Murthy<br>MBA, NET, Ph.D.</p>
-                        <button>Message from Secretary</button>
+                        <button onclick="openModal()">Message from Secretary</button>
                     </div>
                     <div class="profile-card">
                         <img src="./assets/img/principal.jpeg" alt="Principal">
                         <h3>Principal</h3>
                         <p>Dr. V. DEVI <br>M.Com., M.Phil., Ph.D.</p>
-                        <button>Message from Principal</button>
+                        <button onclick="openModal()">Message from Principal</button>
                     </div>
                 </div>
             </div>
+
+            <!-- principal Modal Structure -->
+<div id="principalMessageModal" class="principal">
+    <div class="principal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h3>Message from Principal</h3>
+        <p>
+            Welcome to Thiruthangal Nadar College! Our mission is to provide a holistic education 
+            that prepares students for life beyond academics. We emphasize critical thinking, 
+            innovation, and service to society.
+        </p>
+    </div>
+</div>
+
+ <!-- sectretary Modal Structure -->
+ <div id="SecretaryMessageModal" class="secretary">
+    <div class="secretary-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h3>Message from Principal</h3>
+        <p>
+            Welcome to Thiruthangal Nadar College! Our mission is to provide a holistic education 
+            that prepares students for life beyond academics. We emphasize critical thinking, 
+            innovation, and service to society.
+        </p>
+    </div>
+</div>
 <!------------------------------------------------------------------------------------------------ -->
 
             <!--Schools of excellence-->
@@ -266,6 +292,8 @@ include('addmission_form/admission_form.html');
 <script  src="./script/script.js"></script>
 <script src="./script/addmission.js"></script>
 <script src="script/fixed-nav.js"></script>   
+<script src="script/principal_msg.js"></script>
+<script src="script/secretary_msg.js"></script>
 </body>
 </html>
 

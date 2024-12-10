@@ -194,5 +194,11 @@
 <?php
    include("../reuseable_files/footer.html");
  ?> 
+
+  <!--Admission Form -->
+  <?php 
+        include('addmission_form/admission_form.html');  
+        ?>
+<!--Form End-->
 </body>
 </html>
