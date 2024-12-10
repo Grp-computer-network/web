@@ -46,8 +46,8 @@ include("reuseable_files/header.html");
     <div id="iqac-content" class="about">
     <section class="relative bg-green-500 text-white">
     <div class="container mx-auto text-center py-16">
-      <h2 class="text-4xl font-bold mb-4">Explore the Vibrant Student Life</h2>
-      <p class="text-lg mb-6">Learn, grow, and thrive in an environment that nurtures talent and inspires excellence.</p>
+      <h2 class="text-2xl font-semibold mb-4">Explore the Vibrant Student Life</h2>
+      <p class="text-lg mb-6" style="color:black">Learn, grow, and thrive in an environment that nurtures talent and inspires excellence.</p>
       <a href="#features" class="bg-white text-green-600 px-6 py-3 rounded-lg shadow-lg font-semibold hover:bg-gray-200 transition">Discover More</a>
     </div>
     <div class="absolute inset-0 bg-green-700 bg-opacity-20"></div>

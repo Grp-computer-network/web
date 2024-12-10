@@ -4,13 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>research</title>
-    <link rel="stylesheet" href="css/IQAC/iqac.css"> <!-- Your existing CSS file -->
-    <link rel="stylesheet" href="css/home-content-style/styles.css">
-    <link rel="stylesheet" href="css/home-content-style/footer.css">
-    <link rel="stylesheet" href="css/home-content-style/addmission.css">
-    <link href="css/tailwind.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-</head>
+    <?php 
+    include('reuseable_files/style-php.html');
+    ?>
+  </head>
 <body>
     <?php 
     include('reuseable_files/header.html');
