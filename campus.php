@@ -4,19 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>campus life</title>
-    <!--Main style sheets for nav-bar anad body content-->
-    <link rel="stylesheet" href="css/home-content-style/styles.css">
-    <!--style for foooter-->
-    <link rel="stylesheet" href="css/home-content-style/footer.css">
-    <!--style for the pop events-->
-    <link rel="stylesheet" href="css/home-content-style/popup.css">
-    <link rel="stylesheet" href="css/home-content-style/addmission.css">
-    <!--style for icons imported-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <link rel="stylesheet" href="css/home-content-style/footer.css">
-    <link rel="stylesheet" href="css/about-content/about.css">
-    <link rel="stylesheet" href="css/IQAC/iqac.css">
-    <link rel="stylesheet" href="css/tailwind.css">
+    <?php 
+    include('reuseable_files/style-php.html');
+    ?>
 </head>
 <body>
 <?php
