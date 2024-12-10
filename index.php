@@ -147,10 +147,8 @@
         <span class="close" onclick="closeModal()">&times;</span>
         <h3>Message from Principal</h3>
         <p>
-            Welcome to Thiruthangal Nadar College! Our mission is to provide a holistic education 
-            that prepares students for life beyond academics. We emphasize critical thinking, 
-            innovation, and service to society.
-        </p>
+        Thiruthangal Nadar College is at the threshold of celebrating its Silver Jubilee.We provide holistic education in the northern part of Chennai where literacy is of less significance.Thiruthangal Nadar College is a proud mission driven community providing a classic education, celebrating the fact that each student is different, as a person and as a learner.Students are motivated to grab every opportunity that comes their way which would not only help in their holistic growth but also strengthen their belief in teamwork, which is important in this fast-paced world.At TNC we enable students to understand the importance of emotional balance, critical thinking, and most importantly accepting failure graciously.Pupils are empowered in such a manner that they act as representatives of a meaningful and value-based society. We have a team of fabulous faculty members who display boundless energy and intense commitment which keeps the ethos of our institution shining brightly.
+    </p>
     </div>
 </div>
 
@@ -160,10 +158,8 @@
         <span class="close" onclick="closeModal()">&times;</span>
         <h3>Message from Principal</h3>
         <p>
-            Welcome to Thiruthangal Nadar College! Our mission is to provide a holistic education 
-            that prepares students for life beyond academics. We emphasize critical thinking, 
-            innovation, and service to society.
-        </p>
+        Thiruthangal Nadar College is at the threshold of celebrating its Silver Jubilee.We provide holistic education in the northern part of Chennai where literacy is of less significance.Thiruthangal Nadar College is a proud mission driven community providing a classic education, celebrating the fact that each student is different, as a person and as a learner.Students are motivated to grab every opportunity that comes their way which would not only help in their holistic growth but also strengthen their belief in teamwork, which is important in this fast-paced world.At TNC we enable students to understand the importance of emotional balance, critical thinking, and most importantly accepting failure graciously.Pupils are empowered in such a manner that they act as representatives of a meaningful and value-based society. We have a team of fabulous faculty members who display boundless energy and intense commitment which keeps the ethos of our institution shining brightly.       
+    </p>
     </div>
 </div>
 <!------------------------------------------------------------------------------------------------ -->
@@ -188,11 +184,11 @@
         </div>
 
         <div class="school-box">
-            <img src="https://via.placeholder.com/150" alt="Dr. J. Jayanthi">
+            <img src="/COLLEGE_WEB/assets//center of excelence//sathya-Photoroom.png" alt="Dr. J. Jayanthi">
             <div class="school-content">
                 <div class="school-name" style="background-color: #0caba8;">TNC centre  for e-governance</div>
                 <div class="school-details">
-                    <p>Dr. NAME</p>
+                    <p>Sathya</p>
                     <p>M.Sc., M.Phil., Ph.D.</p>
                     <p>Dean - School of Sciences</p>
                 </div>
@@ -200,13 +196,13 @@
         </div>
 
         <div class="school-box">
-            <img src="https://via.placeholder.com/150" alt="Dr. K. Shanthi">
+            <img src="/COLLEGE_WEB/assets//center of excelence//A.rajeshwari-joe-Photoroom.png" alt="Dr. K. Shanthi">
             <div class="school-content">
                 <div class="school-name" style="background-color: #008f8c;">TNC Incbation cell</div>
                 <div class="school-details">
-                    <p>Dr.NAME</p>
-                    <p>M.Sc. (IT), Ph.D.</p>
-                    <p>Dean - School of Humanities</p>
+                    <p>Rajeshwari Joe</p>
+                    <p>M.C.A,M.phil Ph.D</p>
+                    <p>Incubation cell </p>
                 </div>
             </div>
         </div>
@@ -236,13 +232,13 @@
         </div>
 
         <div class="school-box">
-            <img src="https://via.placeholder.com/150" alt="Dr. S. Nirmala Devi">
+            <img src="/COLLEGE_WEB/assets//center of excelence//MANGAI.jpg" alt="Dr. S. Nirmala Devi">
             <div class="school-content">
                 <div class="school-name" style="background-color:  #008f8c;">student development council</div>
                 <div class="school-details">
-                    <p>Dr. NAME</p>
-                    <p>MCA, M.Phil., Ph.D.</p>
-                    <p>Dean - School of IT</p>
+                    <p>Mrs.k.Mangai</p>
+                    <p>M.com.,M.B.A.,NET.,ET.,(Ph.D)</p>
+                    <p>SDC CO-oridinator</p>
                 </div>
             </div>
         </div>
