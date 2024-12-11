@@ -7,12 +7,12 @@
     <?php 
     include('reuseable_files/style-php.html');
     ?>
+    <link rel="stylesheet" href="css/tailwind.css">
   </head>
   <body>
     <?php 
     include('reuseable_files/header.html');
     ?>
-
 <div class="title-iqac">
         <h1 style='font-size:23px; font-weight:bold;'>Research</h1>
 </div>

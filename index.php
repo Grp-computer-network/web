@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thiruthangal Nadar college | Academic Excellence</title>
-    <meta name="description" content="Thiruthangal nadar college offers quality educayion,holistics student development, and state-of-the-art facilities in North chennai.">
+    <meta name="description" content="Thiruthangal nadar college offers quality education,holistics student development, and state-of-the-art facilities in North chennai.">
     <?php 
     include('reuseable_files/style.html');
     ?>
 </head>
-<body
-    <!-- Header Section -->
+<body>
+    <!--- header section-->
   <?php
   include("reuseable_files/header.html");
   ?>
@@ -33,18 +33,19 @@
             <img src="./assets/carosule/3.png" alt="Slide 3" style="width:100%" >
             <div class="text">Innovating the Future</div>
         </div>
+        <!-- Slide 4 -->
         <div class="mySlides fade">
             <img src="./assets/carosule/4.png" alt="Slide 4" style="width:100%">
             <div class="text">Innovating the Future</div>
         </div>
-        
+        <!-- Slide 5 -->
         <div class="mySlides fade">
-            <img src="./assets/carosule/5.png" alt="Slide 4" style="width:100%">
+            <img src="./assets/carosule/5.png" alt="Slide 5 style="width:100%">
             <div class="text">Innovating the Future</div>
         </div>
-        
+        <!-- Slide 6 -->
         <div class="mySlides fade">
-            <img src="./assets/carosule/6.png" alt="Slide 5" style="width:100%">
+            <img src="./assets/carosule/6.png" alt="Slide 6" style="width:100%">
             <div class="text">Innovating the Future</div>
         </div>
         <!-- Navigation Dots -->
@@ -55,15 +56,12 @@
             <span class="dot" onclick="currentSlide(4)"></span>
             <span class="dot" onclick="currentSlide(5)"></span>
             <span class="dot" onclick="currentSlide(6)"></span>
+         </div>
         </div>
-    </div>
-</section>
-
-   <!--Hero Banner End-->   
+    </section>
+    <!--Hero Banner End-->   
 <!------------------------------------------------------------------------------------------------ -->
-
     <!--  companies visisted -->
-            <!---  companies visited -->
             <div class="counter-container">
                 <div class="counter">
                     <div id="companiesVisited" class="counter-value">0+</div>
@@ -245,7 +243,7 @@
     </div>
 <!------------------------------------------------------------------------------------------------ -->
 
-    <!--TOP Recruiters-->
+                                 <!--TOP Recruiters-->
     <div class="recruiters-section-1"></div>
     <center>
         <h2 style="color: #003366; font-size: 30px;">Our Top Recruiters</h2>
@@ -267,11 +265,11 @@
             </div>
         </div>
     </div>
-<!------------------------------------------------------------------------------------------------ --
-<!--- footer-->
- <?php
-   include("reuseable_files/footer.html");
- ?>    
+<!------------------------------------------------------------------------------------------------ -->
+    <!-- footer section-->
+     <?php
+       include("reuseable_files/footer.html");
+     ?>    
     <!--Pop-up Poster -->
 <div id="popupPoster" class="modal">
     <div class="modal-content">
@@ -281,15 +279,15 @@
   </div>
 <!--------------------------------------------------------------------------------------------------->
 <!--Modal Pop-up Poster end-->
-<?php
-include('addmission_form/admission_form.html');
-?>
-<!--Form End-->
-<script  src="./script/script.js"></script>
-<script src="./script/addmission.js"></script>
-<script src="script/fixed-nav.js"></script>   
-<script src="script/principal_msg.js"></script>
-<script src="script/secretary_msg.js"></script>
+        <?php
+        include('addmission_form/admission_form.html');
+        ?>
+        <!--Form End-->
+        <script  src="./script/script.js"></script>
+        <script src="./script/addmission.js"></script>
+        <script src="script/fixed-nav.js"></script>   
+        <script src="script/principal_msg.js"></script>
+        <script src="script/secretary_msg.js"></script>
 </body>
 </html>
 
