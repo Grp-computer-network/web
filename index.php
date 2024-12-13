@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thiruthangal Nadar college | Academic Excellence</title>
+    <link rel="icon" type="image/x-icon" href="/COLLEGE_WEB/assets//img//TNC_logo.png">
     <meta name="description" content="Thiruthangal nadar college offers quality education,holistics student development, and state-of-the-art facilities in North chennai.">
     <?php 
     include('reuseable_files/style.html');
