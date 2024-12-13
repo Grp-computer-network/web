@@ -8,178 +8,64 @@
     <?php 
     include('reuseable_files/style-php.html');
     ?>
+   <link rel="stylesheet" href="css/tailwind.css">
    </head>
 <body>
 
     <?php
     include("reuseable_files/header.html");
     ?> <br>
-    <!-- Header -->
-    <header class="bg-blue-600 text-white py-5 text-center">
-        <h1 class="text-3xl font-bold">College Event Gallery</h1>
-        <p class="mt-2 text-lg">Explore highlights from various college events</p>
-    </header>
-    <section class="max-w-6xl mx-auto py-10 px-5">
-        <!-- Tabs for Event Categories -->
-        <div class="mb-6 text-center">
-            <button id="tab-1" class="tab-btn bg-blue-600 text-white py-2 px-4 rounded-md mx-2 active ">
-                kamarajar Birthday
-            </button>
-            <button id="tab-2" class="tab-btn bg-gray-300 text-gray-700 py-2 px-4 rounded-md mx-2">
-                Cultural Fest(UKTI-2K24)
-            </button>
-            <button id="tab-3" class="tab-btn bg-gray-300 text-gray-700 py-2 px-4 rounded-md mx-2">
-                27th Sports Day
-            </button>
-            <button id="tab-4" class="tab-btn bg-gray-300 text-gray-700 py-2 px-4 rounded-md mx-2">
-                Freshers Day
-            </button>
-        </div>
-        <!-- Gallery for Tabs -->
-        <div id="content-1" class="tab-content">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <!-- Cultural Fest Images -->
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="/COLLEGE_WEB/assets//Gallery-clg//kamarajar_birthday_pics//PIcture-1.jpeg" alt="Event 1" class="h-50 w-full object-cover">
-                    <div class="p-2">
-                        <h3 class="text-sm font-bold">kamarajar-birthday</h3>
-                        <p class="text-xs text-gray-500">Lighting up the kothuvelaku</p>
-                    </div>
-                </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="/COLLEGE_WEB/assets//Gallery-clg///kamarajar_birthday_pics///picture-2.jpeg" alt="Event 2" class="h-50 w-full object-cover">
-                    <div class="p-2">
-                        <h3 class="text-sm font-bold">kamarajar-birthday</h3>
-                        <p class="text-xs text-gray-500">Management members</p>
-                    </div>
-                </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="/COLLEGE_WEB/assets//Gallery-clg//kamarajar_birthday_pics//picture-3.jpeg" alt="Event 3" class="h-50 w-full object-cover">
-                    <div class="p-2">
-                        <h3 class="text-sm font-bold">kamarajar-birthday</h3>
-                        <p class="text-xs text-gray-500">kamarajar statue</p>
-                    </div>
-                </div>
-            </div>
-            <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="/COLLEGE_WEB/assets//Gallery-clg//kamarajar_birthday_pics//picture-4.jpeg" alt="Event 3" class="h-70 w-full object-cover">
-                    <div class="p-2">
-                        <h3 class="text-sm font-bold">kamarajar-birthday</h3>
-                        <p class="text-xs text-gray-500">kamarajar statue</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
+  <header class="bg-[#a30000] text-white py-4">
+    <div class="container mx-auto text-center">
+      <h1 class="text-2xl font-bold" style="font-size: 30px;">Gallery</h1>
+    </div>
+  </header><br>
+    <!-- Buttons for categories -->
+    <div class="flex justify-center space-x-4 mb-6">
+        <button class="category-btn bg-[#a30000] text-white px-4 py-2 rounded shadow-md" data-category="cultural">
+            UKTI 2K24
+        </button>
+        <button class="category-btn bg-[#a30000] text-white px-4 py-2 rounded shadow-md" data-category="sports">
+            Sports DAY
+        </button>
+        <button class="category-btn bg-[#a30000] text-white px-4 py-2 rounded shadow-md" data-category="freshers">
+            Freshers Day
+        </button>
+        <button class="category-btn bg-[#a30000] text-white px-4 py-2 rounded shadow-md" data-category="events">
+            KAMARAJAR BIRTH-DAY
+        </button>
+    </div>
 
-        <div id="content-2" class="tab-content hidden">
-            <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
-                <!-- Science Expo Images -->
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="/COLLEGE_WEB/assets//Gallery-clg//UKTI_2K24//UKTI_2K24_10-768x512.jpg" alt="Event 4" class="h-40 w-full object-cover">
-                    <div class="p-2">
-                        <h3 class="text-sm font-bold">Robotics</h3>
-                        <p class="text-xs text-gray-500">Robotic innovations displayed.</p>
-                    </div>
-                </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="/COLLEGE_WEB/assets//Gallery-clg//UKTI_2K24//UKTI_2K24_9-768x512.jpg" alt="Event 5" class="h-40 w-full object-cover">
-                    <div class="p-2">
-                        <h3 class="text-sm font-bold">AI Presentation</h3>
-                        <p class="text-xs text-gray-500">AI-based projects on display.</p>
-                    </div>
-                </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="/COLLEGE_WEB/assets///Gallery-clg//UKTI_2K24//UKTI_2K24_8-768x512.jpg" alt="Event 6" class="h-40 w-full object-cover">
-                    <div class="p-2">
-                        <h3 class="text-sm font-bold">Innovative Models</h3>
-                        <p class="text-xs text-gray-500">Creative science projects.</p>
-                    </div>
-                </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="/COLLEGE_WEB/assets//Gallery-clg//UKTI_2K24//UKTI_2K24_7-scaled.jpg" alt="Event 4" class="h-40 w-full object-cover">
-                    <div class="p-2">
-                        <h3 class="text-sm font-bold">Robotics</h3>
-                        <p class="text-xs text-gray-500">Robotic innovations displayed.</p>
-                    </div>
-                </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="/COLLEGE_WEB/assets//Gallery-clg//UKTI_2K24//UKTI_2K24_16-768x512.jpg" alt="Event 4" class="h-40 w-full object-cover">
-                    <div class="p-2">
-                        <h3 class="text-sm font-bold">Robotics</h3>
-                        <p class="text-xs text-gray-500">Robotic innovations displayed.</p>
-                    </div>
-                </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="/COLLEGE_WEB/assets//Gallery-clg//UKTI_2K24//UKTI_2K24_11-768x512.jpg" alt="Event 4" class="h-40 w-full object-cover">
-                    <div class="p-2">
-                        <h3 class="text-sm font-bold">Robotics</h3>
-                        <p class="text-xs text-gray-500">Robotic innovations displayed.</p>
-                    </div>
-                </div>
+    <!-- Carousel -->
+    <div class="relative max-w-4xl mx-auto overflow-hidden">
+        <div class="flex transition-transform duration-500 ease-in-out" id="carousel">
+            <!-- Default images (Cultural) -->
+            <div class="flex-shrink-0 w-full flex justify-center items-center bg-gray-200">
+                <img src="https://via.placeholder.com/300x200?text=Cultural+1" alt="Cultural 1" class="rounded shadow-md" />
+            </div>
+            <div class="flex-shrink-0 w-full flex justify-center items-center bg-gray-200">
+                <img src="https://via.placeholder.com/300x200?text=Cultural+2" alt="Cultural 2" class="rounded shadow-md" />
+            </div>
+            <div class="flex-shrink-0 w-full flex justify-center items-center bg-gray-200">
+                <img src="https://via.placeholder.com/300x200?text=Cultural+3" alt="Cultural 3" class="rounded shadow-md" />
             </div>
         </div>
 
-        <div id="content-3" class="tab-content hidden">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <!-- Sports Day Images -->
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="https://i.ibb.co/RYL0tP4/event6.jpg" alt="Event 6" class="h-40 w-full object-cover">
-                    <div class="p-2">
-                        <h3 class="text-sm font-bold">Cricket Match</h3>
-                        <p class="text-xs text-gray-500">Intense cricket tournament.</p>
-                    </div>
-                </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="https://i.ibb.co/RNkk6L0/img6.jpg" alt="Event 7" class="h-40 w-full object-cover">
-                    <div class="p-2">
-                        <h3 class="text-sm font-bold">Relay Race</h3>
-                        <p class="text-xs text-gray-500">Students competing in athletics.</p>
-                    </div>
-                </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img src="https://i.ibb.co/0mW8Xv8/event2.jpg" alt="Event 8" class="h-40 w-full object-cover">
-                    <div class="p-2">
-                        <h3 class="text-sm font-bold">Basketball Game</h3>
-                        <p class="text-xs text-gray-500">Exciting basketball match.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="content-4" class="tab-content">
-        <div class="relative w-full max-w-3xl mx-auto overflow-hidden">
-  <!-- Carousel Content -->
-      <div id="carousel" class="flex transition-transform duration-300 ease-in-out">
-        <div class="w-full flex-shrink-0">
-          <img src="/COLLEGE_WEB/assets//Gallery-clg//Freshers_day_pics//TNC_Freshers_Day_2024_1-scaled.jpeg" alt="Slide 1" class="w-full">
-        </div>
-        <div class="w-full flex-shrink-0">
-          <img src="/COLLEGE_WEB/assets//Gallery-clg//Freshers_day_pics//TNC_Freshers_Day_2024_3-768x432.jpeg" alt="Slide 2" class="w-full">
-        </div>
-        <div class="w-full flex-shrink-0">
-          <img src="/COLLEGE_WEB/assets//Gallery-clg//Freshers_day_pics//TNC_Freshers_Day_2024_4-768x432.jpeg" alt="Slide 3" class="w-full">
-        </div> 
-        <div class="w-full flex-shrink-0">
-          <img src="/COLLEGE_WEB/assets//Gallery-clg//Freshers_day_pics//TNC_Freshers_Day_2024_5-scaled.jpeg" alt="Slide 4" class="w-full">
-       </div>
-  <!-- Buttons -->
-  <button 
-    id="prevButton" 
-    class="absolute top-1/2 left-4 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full shadow-md hover:bg-gray-700">
-    &#10094; <!-- Left Arrow -->
-  </button>
-  <button 
-    id="nextButton" 
-    class="absolute top-1/2 right-4 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full shadow-md hover:bg-gray-700">
-    &#10095; <!-- Right Arrow -->
-  </button>
+        <!-- Navigation Buttons -->
+        <button
+            class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-[#a30000] text-white p-2 rounded-full shadow-md z-10"
+            id="prev">
+            &larr;
+        </button>
+        <button
+            class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-[#a30000] text-white p-2 rounded-full shadow-md z-10"
+            id="next">
+            &rarr;
+        </button>
+    </div>
 </div>
-     </div>
-        </div>
-
-    </section>
-    <!-- End Image Grid -->
-    <?php
+<br>
+<?php
     include('reuseable_files/footer.html');
     ?>
 
@@ -188,9 +74,95 @@
         include('addmission_form/admission_form.html');  
         ?>
 
+
+<script>
+    const carousel = document.getElementById('carousel');
+    const prevButton = document.getElementById('prev');
+    const nextButton = document.getElementById('next');
+    const categoryButtons = document.querySelectorAll('.category-btn');
+
+    // Category Images
+    const categories = {
+        cultural: [
+            "/COLLEGE_WEB/assets/Gallery-clg/UKTI_2K24/UKTI_2K24_16-768x512.jpg",
+            "/COLLEGE_WEB/assets/Gallery-clg/UKTI_2K24/UKTI_2K24_7-scaled.jpg",
+            "/COLLEGE_WEB/assets/Gallery-clg/UKTI_2K24/UKTI_2K24_8-768x512.jpg",
+            "/COLLEGE_wEB/assets/Gallery-clg/UKTI_2K24/UKTI_2K24_9-768x512.jpg",
+            "/COLLEGE_WEB/assets/Gallery-clg/UKTI_2K24/UKTI_2K24_10-768x512.jpg",
+            "/COLLEGE_WEB/assets/Gallery-clg/UKTI_2K24/UKTI_2K24_11-768x512.jpg",
+        ],
+        sports: [
+            "/COLLEGE_WEB/assets/Gallery-clg/sports_day_pics/27_TH_Sports_Day_1-768x511.jpg",
+            "/COLLEGE_WEB/assets/Gallery-clg/sports_day_pics/27_TH_Sports_Day_2-768x511.jpg",
+            "/COLLEGE_WEB/assets/Gallery-clg/sports_day_pics/27_TH_Sports_Day_4-768x511.jpg",
+            "/COLLEGE_WEB/assets/Gallery-clg/sports_day_pics/27_TH_Sports_Day_10-768x511.jpg",
+            "/COLLEGE_WEB/assets/Gallery-clg/sports_day_pics/27_TH_Sports_Day_14-768x511.jpg",
+            "/COLLEGE_WEB/assets/Gallery-clg/sports_day_pics/27_TH_Sports_Day_15-768x511.jpg",
+            "/COLLEGE_WEB/assets/Gallery-clg/sports_day_pics/27_TH_Sports_Day_16-768x511.jpg",
+            "/COLLEGE_WEB/assets/Gallery-clg/sports_day_pics/27_TH_Sports_Day_17-768x511.jpg"
+        ],
+        freshers: [
+            "/COLLEGE_WEB/assets/Gallery-clg/Freshers_day_pics/TNC_Freshers_Day_2024_1-scaled.jpeg",
+            "/COLLEGE_WEB/assets/Gallery-clg/Freshers_day_pics/TNC_Freshers_Day_2024_3-768x432.jpeg",
+            "/COLLEGE_WEB/assets/Gallery-clg/Freshers_day_pics/TNC_Freshers_Day_2024_4-768x432.jpeg",
+            "/COLLEGE_WEB/assets/Gallery-clg/Freshers_day_pics/TNC_Freshers_Day_2024_5-scaled.jpeg"
+        ],
+        events: [
+            "/COLLEGE_WEB/assets/Gallery-clg/kamarajar_birthday_pics/PIcture-1.jpeg",
+            "/COLLEGE_WEB/assets/Gallery-clg/kamarajar_birthday_pics/picture-2.jpeg",
+            "/COLLEGE_WEB/assets/Gallery-clg/kamarajar_birthday_pics/picture-3.jpeg",
+            "/COLLEGE_WEB/assets/Gallery-clg/kamarajar_birthday_pics/picture-4.jpeg",
+            "/COLLEGE_WEB/assets/Gallery-clg/kamarajar_birthday_pics/picture-5.jpeg"
+        ]
+    };
+
+    let currentIndex = 0;
+
+    // Update Carousel
+    function updateCarousel() {
+        const offset = -currentIndex * 100; // Move by 100% width per slide
+        carousel.style.transform = `translateX(${offset}%)`;
+    }
+
+    // Load Images by Category
+    function loadCategory(category) {
+        currentIndex = 0;
+        carousel.innerHTML = ''; // Clear current images
+
+        categories[category].forEach((src) => {
+            const div = document.createElement('div');
+            div.className = "flex-shrink-0 w-full flex justify-center items-center bg-gray-200";
+            div.innerHTML = `<img src="${src}" alt="${category}" class="rounded shadow-md" />`;
+            carousel.appendChild(div);
+        });
+
+        updateCarousel();
+    }
+
+    // Button Event Listeners
+    categoryButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const category = button.getAttribute('data-category');
+            loadCategory(category);
+        });
+    });
+
+    // Navigation Event Listeners
+    prevButton.addEventListener('click', () => {
+        currentIndex = (currentIndex === 0) ? carousel.children.length - 1 : currentIndex - 1;
+        updateCarousel();
+    });
+
+    nextButton.addEventListener('click', () => {
+        currentIndex = (currentIndex + 1) % carousel.children.length;
+        updateCarousel();
+    });
+
+    // Load default category
+    loadCategory('cultural');
+</script>
 <script  src="/COLLEGE_WEB/script//gallery_script.js"></script>
 <script src="script/fixed-nav.js"></script>  
 <script src="./script/addmission.js"></script>
 </body>
-
 </html>

@@ -186,7 +186,7 @@
             <div class="school-content">
                 <div class="school-name" style="background-color: #0caba8;">TNC centre  for e-governance</div>
                 <div class="school-details">
-                    <p>Sathya</p>
+                    <p>Mrs.Sathya</p>
                     <p>M.Sc., M.Phil., Ph.D.</p>
                     <p>Dean - School of Sciences</p>
                 </div>
@@ -198,7 +198,7 @@
             <div class="school-content">
                 <div class="school-name" style="background-color: #008f8c;">TNC Incbation cell</div>
                 <div class="school-details">
-                    <p>Rajeshwari Joe</p>
+                    <p>Mrs.Rajeshwari Joe</p>
                     <p>M.C.A,M.phil Ph.D</p>
                     <p>Incubation cell </p>
                 </div>
@@ -218,11 +218,11 @@
         </div>
 
         <div class="school-box">
-            <img src="https://via.placeholder.com/150" alt="Dr. Shakila M.K">
+            <img src="/COLLEGE_WEB/assets//center of excelence//Rishi-Photoroom.png" alt="Dr. Shakila M.K">
             <div class="school-content">
                 <div class="school-name" style="background-color:  #0caba8;">TNC Media centre</div>
                 <div class="school-details">
-                    <p>Dr. NAME</p>
+                    <p>Mr.RISHI</p>
                     <p>MBA, M.Phil.</p>
                     <p>Dean - School of Management</p>
                 </div>
