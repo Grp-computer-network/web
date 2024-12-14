@@ -11,9 +11,10 @@
     <link rel="stylesheet" href="css/tailwind.css">
 </head>
 <body>
-    <?php
-    include('../reuseable_files/header.html');
-    ?>
+    
+<?php
+  include("../reuseable_files/header-php.html");
+  ?>
     <br>
     <header class="bg-[#b25565] text-white text-center py-6" >
         <h1 class="text-3xl font-bold">Women safety & Welfare club</h1>

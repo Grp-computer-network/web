@@ -4,20 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>research</title>
-    <link rel="stylesheet" href="css/IQAC/iqac.css"> <!-- Your existing CSS file -->
-    <link rel="stylesheet" href="css/home-content-style/styles.css">
-    <link rel="stylesheet" href="css/home-content-style/footer.css">
-    <link rel="stylesheet" href="css/home-content-style/addmission.css">
-    <link href="css/tailwind.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-</head>
-<body>
+    <?php 
+    include('reuseable_files/style-php.html');
+    ?>
+    <link rel="stylesheet" href="css/tailwind.css">
+  </head>
+  <body>
     <?php 
     include('reuseable_files/header.html');
     ?>
-
 <div class="title-iqac">
-        <h1 style='font-size:23px; font-weight:bold;'>RESEARCH</h1>
+        <h1 style='font-size:23px; font-weight:bold;'>Research</h1>
 </div>
     <!-- IQAC Section -->
     <section id="iqac-container">
@@ -67,18 +64,13 @@
         </main>
     </div>
     </section>
-    
-
     <?php 
     include("reuseable_files/footer.html");
     ?>
-    
                      <!-- admission pop-up-->
-
-                     <?php 
-        include('addmission_form/admission_form.html');  
-        ?>
-        
+    <?php 
+    include('addmission_form/admission_form.html');  
+    ?>
     <script src="script/addmission.js"></script>
     <script src="script/iqac.js"></script>
     <script src="script/fixed-nav.js"></script>

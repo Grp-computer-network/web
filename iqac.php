@@ -15,11 +15,13 @@
     <!--style for icons imported-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="css/footer.css">
-</head>
-<body>
-<?php
-include("reuseable_files/header.html");
-?>    
+    </head>
+    <body>
+    <!--- header content-->
+     <?php
+     include("reuseable_files/header.html");
+     ?>    
+     <!-- header-end -->
     <div class="title-iqac">
         <h1 style='font-size:23px; font-weight:bold;'>Internal Quality Assurance Cell</h1>
     </div>
@@ -46,7 +48,6 @@ include("reuseable_files/header.html");
                 <!-- More Sub-Navigation Links -->
             </ul>
         </nav>
-
         <!-- Main Content Section where the IQAC content will be loaded -->
         <div id="iqac-content">
             <h2>Welcome to IQAC</h2>   <br>
@@ -56,18 +57,22 @@ include("reuseable_files/header.html");
                 
                 Let’s understand the concept of IQAC & how it can help institutions.</p>
         </div>
-    </section>
-<?php 
- include("reuseable_files/footer.html");
-?>
+        </section>
+        <!-- footer -->
+        <?php 
+        include("reuseable_files/footer.html");
+        ?>
+        <!-- footer-end-->
+
         <!--Admission Form -->
         <?php 
         include('addmission_form/admission_form.html');  
         ?>
-<!--Form End-->
-     <script src="script/script.js"></script>
-    <script src="script/iqac.js"></script> <!-- JavaScript file -->
-    <script src="script/addmission.js"></script>
-    <script src="script/fixed-nav.js"></script>
+        <!--Form End-->
+        <!-- java-scripts-files -->
+        <script src="script/script.js"></script>
+        <script src="script/iqac.js"></script>
+        <script src="script/addmission.js"></script>
+        <script src="script/fixed-nav.js"></script>
 </body>
 </html>

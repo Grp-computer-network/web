@@ -4,19 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>student_life</title>
-    <!--Main style sheets for nav-bar anad body content-->
-    <link rel="stylesheet" href="css/home-content-style/styles.css">
-    <!--style for foooter-->
-    <link rel="stylesheet" href="css/home-content-style/footer.css">
-    <!--style for the pop events-->
-    <link rel="stylesheet" href="css/home-content-style/popup.css">
-    <link rel="stylesheet" href="css/home-content-style/addmission.css">
-    <!--style for icons imported-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <link rel="stylesheet" href="css/home-content-style/footer.css">
-    <link rel="stylesheet" href="css/about-content/about.css">
-    <link rel="stylesheet" href="css/IQAC/iqac.css">
-</head>
+    <?php 
+    include('reuseable_files/style-php.html');
+    ?>
+    <link rel="stylesheet" href="css/tailwind.css">
+    </head>
 <body>
 <?php
 include("reuseable_files/header.html");
@@ -43,23 +35,52 @@ include("reuseable_files/header.html");
 
     <!-- Main Content Section where the IQAC content will be loaded -->
     <div id="iqac-content" class="about">
-        <h2>About us</h2>
-        <hr>
-        <p style="font-size: 1.3rem;">
-            
-*Thiruthangal Nadar College*, established in 1997, is a leading co-educational private institution affiliated with the University of Madras. Initially founded as a men’s college, it transitioned to a co-educational institution in 2002, empowering women in North Chennai by providing them with quality education and expanding opportunities.
-        </p>
-        <p style="font-size: 1.3rem;">
-            The college was founded by the *Chennaivazh Thiruthangal Hindu Nadar Uravinmurai Dharma Fund, driven by a mission to support the underprivileged student community. The dedicated management is committed to providing accessible education, fostering students' intellectual and personal growth through the college’s motto, *"Knowledge is Power."** Our primary focus is to ignite the minds of students, dispelling ignorance and promoting enlightenment through a comprehensive educational experience.
-        </p>
-        <h2>Academic Programs</h2> <hr>
-        <p style="font-size: 1.3rem;">
-            We offer a variety of *undergraduate (UG)* and *postgraduate (PG)* programs in the arts and sciences. These programs are designed to equip students with the knowledge, skills, and values necessary for personal and professional success. Accredited with a *B++* rating, Thiruthangal Nadar College has earned recognition for its commitment to academic excellence.
-        </p>
-        <h2>Student Life and Extracurricular Activities</h2><hr>
-        <p style="font-size: 1.3rem;">
-            We believe in holistic development, and students are encouraged to participate in various clubs and organizations, including the *Eco Club, **Student Development Council (SDC), **National Service Scheme (NSS), and **National Cadet Corps (NCC)*. These activities promote leadership, environmental awareness, and civic responsibility.
-        </p>
+    <section class="relative bg-green-500 text-white">
+    <div class="container mx-auto text-center py-16">
+      <h2 class="text-2xl font-semibold mb-4">Explore the Vibrant Student Life</h2>
+      <p class="text-lg mb-6" style="color:black">Learn, grow, and thrive in an environment that nurtures talent and inspires excellence.</p>
+      <a href="#features" class="bg-white text-green-600 px-6 py-3 rounded-lg shadow-lg font-semibold hover:bg-gray-200 transition">Discover More</a>
+    </div>
+    <div class="absolute inset-0 bg-green-700 bg-opacity-20"></div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="container mx-auto py-12">
+    <h3 class="text-3xl font-bold text-center mb-8">Why Students Love Our College</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Card 1 -->
+      <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+        <div class="mb-4">
+          <svg class="w-16 h-16 mx-auto text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5z" />
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l6.16-3.422A12.042 12.042 0 0112 14z" />
+          </svg>
+        </div>
+        <h4 class="text-xl font-bold mb-2">State-of-the-Art Facilities</h4>
+        <p class="text-gray-600">Access modern labs, libraries, and recreational areas to enhance your learning experience.</p>
+      </div>
+      <!-- Card 2 -->
+      <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+        <div class="mb-4">
+          <svg class="w-16 h-16 mx-auto text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 13V5a2 2 0 00-2-2H6a2 2 0 00-2 2v8M3 13a4 4 0 008 0m-6 6h12m-6-6V6" />
+          </svg>
+        </div>
+        <h4 class="text-xl font-bold mb-2">Thriving Campus Life</h4>
+        <p class="text-gray-600">Participate in clubs, cultural fests, and competitions to discover your hidden talents.</p>
+      </div>
+      <!-- Card 3 -->
+      <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+        <div class="mb-4">
+          <svg class="w-16 h-16 mx-auto text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4m16 0l-4-4m4 4l-4 4M4 12l4-4m-4 4l4 4" />
+          </svg>
+        </div>
+        <h4 class="text-xl font-bold mb-2">Supportive Community</h4>
+        <p class="text-gray-600">Learn and grow with supportive peers and faculty who are committed to your success.</p>
+      </div>
+    </div>
+  </section>
     </div>
 </section>
   <?php 

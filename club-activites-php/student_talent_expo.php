@@ -11,9 +11,10 @@
     <link rel="stylesheet" href="css/tailwind.css">
 </head>
 <body>
-    <?php
-    include('../reuseable_files/header.html');
-    ?>
+    
+<?php
+  include("../reuseable_files/header-php.html");
+  ?>
     <br>
     <h1 class="text-3xl font-semibold text-[#a30000] text-center">Students Talent Expo Club</h1>
     <br>

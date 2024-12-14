@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thiruthangal Nadar college | Academic Excellence</title>
-    <meta name="description" content="Thiruthangal nadar college offers quality educayion,holistics student development, and state-of-the-art facilities in North chennai.">
+    <link rel="icon" type="image/x-icon" href="/COLLEGE_WEB/assets//img//TNC_logo.png">
+    <meta name="description" content="Thiruthangal nadar college offers quality education,holistics student development, and state-of-the-art facilities in North chennai.">
     <?php 
     include('reuseable_files/style.html');
     ?>
 </head>
 <body>
-    <!-- Header Section -->
+    <!--- header section-->
   <?php
   include("reuseable_files/header.html");
   ?>
@@ -33,18 +34,19 @@
             <img src="./assets/carosule/3.png" alt="Slide 3" style="width:100%" >
             <div class="text">Innovating the Future</div>
         </div>
+        <!-- Slide 4 -->
         <div class="mySlides fade">
             <img src="./assets/carosule/4.png" alt="Slide 4" style="width:100%">
             <div class="text">Innovating the Future</div>
         </div>
-        
+        <!-- Slide 5 -->
         <div class="mySlides fade">
-            <img src="./assets/carosule/5.png" alt="Slide 4" style="width:100%">
+            <img src="./assets/carosule/5.png" alt="Slide 5 style="width:100%">
             <div class="text">Innovating the Future</div>
         </div>
-        
+        <!-- Slide 6 -->
         <div class="mySlides fade">
-            <img src="./assets/carosule/6.png" alt="Slide 5" style="width:100%">
+            <img src="./assets/carosule/6.png" alt="Slide 6" style="width:100%">
             <div class="text">Innovating the Future</div>
         </div>
         <!-- Navigation Dots -->
@@ -55,15 +57,12 @@
             <span class="dot" onclick="currentSlide(4)"></span>
             <span class="dot" onclick="currentSlide(5)"></span>
             <span class="dot" onclick="currentSlide(6)"></span>
+         </div>
         </div>
-    </div>
-</section>
-
-   <!--Hero Banner End-->   
+    </section>
+    <!--Hero Banner End-->   
 <!------------------------------------------------------------------------------------------------ -->
-
     <!--  companies visisted -->
-            <!---  companies visited -->
             <div class="counter-container">
                 <div class="counter">
                     <div id="companiesVisited" class="counter-value">0+</div>
@@ -102,10 +101,7 @@
                     </div>
                 </div>
                   <!-- on the <p></p> add our recent events and news-->
-<<<<<<< HEAD
-=======
-                  
->>>>>>> 29f89ed5cdd09a4951439e6f6ed329663490dddd
+                 
                     <a href="#" class="annual-calendar-btn">Annual Academic Calendar 2024-25 →</a>
                 </div>
             </div>        
@@ -128,19 +124,46 @@
                 <div class="profile-cards">
                     
                     <div class="profile-card">
-                        <img src="./assets/img/Thiru.A.Narayana-Murthy-Secretary.jpg" alt="Vice Principal">
+                        <img src="./assets/img/Thiru.A.Narayana-Murthy-Secretary.jpg" alt="Secretary">
                         <h3>Secretary</h3>
                         <p>Thiru A.Narayana Murthy<br>MBA, NET, Ph.D.</p>
-                        <button>Message from Secretary</button>
+                        <button onclick="secretary()">Message from Secretary</button>
                     </div>
                     <div class="profile-card">
                         <img src="./assets/img/principal.jpeg" alt="Principal">
                         <h3>Principal</h3>
                         <p>Dr. V. DEVI <br>M.Com., M.Phil., Ph.D.</p>
-                        <button>Message from Principal</button>
+                        <button onclick=" princpal()">Message from Principal</button>
                     </div>
                 </div>
             </div>
+
+            <!-- principal Modal Structure -->
+<div id="principalMessageModal" class="principal">
+    <div class="principal-content">
+        <span class="close" onclick="principal_close()">&times;</span>
+        <h3>Message from Principal</h3>
+        <p>
+        Thiruthangal Nadar College is at the threshold of celebrating its Silver Jubilee.We provide holistic education in the northern part of Chennai where literacy is of less significance.Thiruthangal Nadar College is a proud mission driven community providing a classic education, celebrating the fact that each student is different, as a person and as a learner.Students are motivated to grab every opportunity that comes their way which would not only help in their holistic growth but also strengthen their belief in teamwork, which is important in this fast-paced world.
+       </p>
+       <p>At TNC we enable students to understand the importance of emotional balance, critical thinking, and most importantly accepting failure graciously.Pupils are empowered in such a manner that they act as representatives of a meaningful and value-based society. We have a team of fabulous faculty members who display boundless energy and intense commitment which keeps the ethos of our institution shining brightly.
+       </p>
+       <p>Even as we impart education to match the advancement in technology and globalization, we march our students ahead with ethos of moral values and principles. We constantly instill these qualities in our children. We pride ourselves to help them grow and develop into sensitive and responsible citizens of the future.</p>
+       <p>We foster a positive spirit and believe in partnership between students, parents, teachers and support staff striving to create a milieu that sustains excellence.</p>
+    </div>
+</div>
+
+ <!-- sectretary Modal Structure -->
+ <div id="SecretaryMessageModal" class="secretary">
+    <div class="secretary-content">
+        <span class="close" onclick="secretary_close()">&times;</span>
+        <h3>Message from Secretary </h3>
+       <p>Thiruthangal Nadar College has been a forerunner in recognizing the needs of the industry and integrating knowledge with professional inputs.</p>
+       <p>Our college is one of the most eminent Higher Education Institutions in North Chennai today, and it is renowned for the standards of its facilities, students and alumni. By maintaining a team of core faculty members, who are constantly pushing the frontiers of knowledge, we ensure a futuristic approach that keeps pace with the changing trends in the professional world through our global perspective.</p>
+       <p> Our primary commitment is to provide education to poor students and find the true potential of our students and equip them for the future, by providing them with the necessary skills, knowledge, and values. </p>
+       <p> We achieve this goal through our unrelenting efforts to enhance Quality in Education and Diversity in our campus..I consider this a great opportunity, privilege, and an honour to lead such a progressive educational establishment.</p>
+    </div>
+</div>
 <!------------------------------------------------------------------------------------------------ -->
 
             <!--Schools of excellence-->
@@ -163,11 +186,11 @@
         </div>
 
         <div class="school-box">
-            <img src="https://via.placeholder.com/150" alt="Dr. J. Jayanthi">
+            <img src="/COLLEGE_WEB/assets//center of excelence//sathya-Photoroom.png" alt="Dr. J. Jayanthi">
             <div class="school-content">
                 <div class="school-name" style="background-color: #0caba8;">TNC centre  for e-governance</div>
                 <div class="school-details">
-                    <p>Dr. NAME</p>
+                    <p>Mrs.Sathya</p>
                     <p>M.Sc., M.Phil., Ph.D.</p>
                     <p>Dean - School of Sciences</p>
                 </div>
@@ -175,35 +198,35 @@
         </div>
 
         <div class="school-box">
-            <img src="https://via.placeholder.com/150" alt="Dr. K. Shanthi">
+            <img src="/COLLEGE_WEB/assets//center of excelence//A.rajeshwari-joe-Photoroom.png" alt="Dr. K. Shanthi">
             <div class="school-content">
-                <div class="school-name" style="background-color: #008f8c;">TNC centre for skill development</div>
+                <div class="school-name" style="background-color: #008f8c;">TNC Incbation cell</div>
                 <div class="school-details">
-                    <p>Dr.NAME</p>
-                    <p>M.Sc. (IT), Ph.D.</p>
-                    <p>Dean - School of Humanities</p>
+                    <p>Mrs.Rajeshwari Joe</p>
+                    <p>M.C.A,M.phil Ph.D</p>
+                    <p>Incubation cell </p>
                 </div>
             </div>
         </div>
 
         <div class="school-box">
-            <img src="https://via.placeholder.com/150" alt="Dr. K. Umadevi">
+            <img src="/COLLEGE_WEB/carrer_guidance_placement//K.PRABHAKARAN-Photoroom.png" alt="Dr. K. Umadevi">
             <div class="school-content">
-                <div class="school-name" style="background-color:  #0fc2c0;">GNCIES</div>
+                <div class="school-name" style="background-color:  #0fc2c0;">Placement Cell</div>
                 <div class="school-details">
-                    <p>Dr.NAME</p>
-                    <p>M.Com., M.Phil., Ph.D.</p>
-                    <p>Dean - School of Commerce</p>
+                    <p>Mr.K.Prabhakaran</p>
+                    <p> Placement Officer.</p>
+                    <p>(Career Guidance and Placement Cell )</p>
                 </div>
             </div>
         </div>
 
         <div class="school-box">
-            <img src="https://via.placeholder.com/150" alt="Dr. Shakila M.K">
+            <img src="/COLLEGE_WEB/assets//center of excelence//Rishi-Photoroom.png" alt="Dr. Shakila M.K">
             <div class="school-content">
                 <div class="school-name" style="background-color:  #0caba8;">TNC Media centre</div>
                 <div class="school-details">
-                    <p>Dr. NAME</p>
+                    <p>Mr.RISHI</p>
                     <p>MBA, M.Phil.</p>
                     <p>Dean - School of Management</p>
                 </div>
@@ -211,20 +234,20 @@
         </div>
 
         <div class="school-box">
-            <img src="https://via.placeholder.com/150" alt="Dr. S. Nirmala Devi">
+            <img src="/COLLEGE_WEB/assets//center of excelence//MANGAI.jpg" alt="Dr. S. Nirmala Devi">
             <div class="school-content">
-                <div class="school-name" style="background-color:  #008f8c;">GNCCOI</div>
+                <div class="school-name" style="background-color:  #008f8c;">student development council</div>
                 <div class="school-details">
-                    <p>Dr. NAME</p>
-                    <p>MCA, M.Phil., Ph.D.</p>
-                    <p>Dean - School of IT</p>
+                    <p>Mrs.k.Mangai</p>
+                    <p>M.com.,M.B.A.,NET.,ET.,(Ph.D)</p>
+                    <p>SDC CO-oridinator</p>
                 </div>
             </div>
         </div>
     </div>
 <!------------------------------------------------------------------------------------------------ -->
 
-    <!--TOP Recruiters-->
+                                 <!--TOP Recruiters-->
     <div class="recruiters-section-1"></div>
     <center>
         <h2 style="color: #003366; font-size: 30px;">Our Top Recruiters</h2>
@@ -246,11 +269,11 @@
             </div>
         </div>
     </div>
-<!------------------------------------------------------------------------------------------------ --
-<!--- footer-->
- <?php
-   include("reuseable_files/footer.html");
- ?>    
+<!------------------------------------------------------------------------------------------------ -->
+    <!-- footer section-->
+     <?php
+       include("reuseable_files/footer.html");
+     ?>    
     <!--Pop-up Poster -->
 <div id="popupPoster" class="modal">
     <div class="modal-content">
@@ -260,13 +283,15 @@
   </div>
 <!--------------------------------------------------------------------------------------------------->
 <!--Modal Pop-up Poster end-->
-<?php
-include('addmission_form/admission_form.html');
-?>
-<!--Form End-->
-<script  src="./script/script.js"></script>
-<script src="./script/addmission.js"></script>
-<script src="script/fixed-nav.js"></script>   
+        <?php
+        include('addmission_form/admission_form.html');
+        ?>
+        <!--Form End-->
+        <script  src="./script/script.js"></script>
+        <script src="./script/addmission.js"></script>
+        <script src="script/fixed-nav.js"></script>   
+        <script src="script/principal_msg.js"></script>
+        <script src="script/secretary_msg.js"></script>
 </body>
 </html>
 
