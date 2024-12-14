@@ -101,9 +101,7 @@
                     </div>
                 </div>
                   <!-- on the <p></p> add our recent events and news-->
-                  <?php 
-                  include('reuseable_files/dynamic_upadate_files/current_news_events.php')
-                  ?>
+                 
                     <a href="#" class="annual-calendar-btn">Annual Academic Calendar 2024-25 →</a>
                 </div>
             </div>        
@@ -146,8 +144,12 @@
         <span class="close" onclick="principal_close()">&times;</span>
         <h3>Message from Principal</h3>
         <p>
-        Thiruthangal Nadar College is at the threshold of celebrating its Silver Jubilee.We provide holistic education in the northern part of Chennai where literacy is of less significance.Thiruthangal Nadar College is a proud mission driven community providing a classic education, celebrating the fact that each student is different, as a person and as a learner.Students are motivated to grab every opportunity that comes their way which would not only help in their holistic growth but also strengthen their belief in teamwork, which is important in this fast-paced world.At TNC we enable students to understand the importance of emotional balance, critical thinking, and most importantly accepting failure graciously.Pupils are empowered in such a manner that they act as representatives of a meaningful and value-based society. We have a team of fabulous faculty members who display boundless energy and intense commitment which keeps the ethos of our institution shining brightly.
-    </p>
+        Thiruthangal Nadar College is at the threshold of celebrating its Silver Jubilee.We provide holistic education in the northern part of Chennai where literacy is of less significance.Thiruthangal Nadar College is a proud mission driven community providing a classic education, celebrating the fact that each student is different, as a person and as a learner.Students are motivated to grab every opportunity that comes their way which would not only help in their holistic growth but also strengthen their belief in teamwork, which is important in this fast-paced world.
+       </p>
+       <p>At TNC we enable students to understand the importance of emotional balance, critical thinking, and most importantly accepting failure graciously.Pupils are empowered in such a manner that they act as representatives of a meaningful and value-based society. We have a team of fabulous faculty members who display boundless energy and intense commitment which keeps the ethos of our institution shining brightly.
+       </p>
+       <p>Even as we impart education to match the advancement in technology and globalization, we march our students ahead with ethos of moral values and principles. We constantly instill these qualities in our children. We pride ourselves to help them grow and develop into sensitive and responsible citizens of the future.</p>
+       <p>We foster a positive spirit and believe in partnership between students, parents, teachers and support staff striving to create a milieu that sustains excellence.</p>
     </div>
 </div>
 
@@ -156,9 +158,10 @@
     <div class="secretary-content">
         <span class="close" onclick="secretary_close()">&times;</span>
         <h3>Message from Secretary </h3>
-        <p>
-        Thiruthangal Nadar College is at the threshold of celebrating its Silver Jubilee.We provide holistic education in the northern part of Chennai where literacy is of less significance.Thiruthangal Nadar College is a proud mission driven community providing a classic education, celebrating the fact that each student is different, as a person and as a learner.Students are motivated to grab every opportunity that comes their way which would not only help in their holistic growth but also strengthen their belief in teamwork, which is important in this fast-paced world.At TNC we enable students to understand the importance of emotional balance, critical thinking, and most importantly accepting failure graciously.Pupils are empowered in such a manner that they act as representatives of a meaningful and value-based society. We have a team of fabulous faculty members who display boundless energy and intense commitment which keeps the ethos of our institution shining brightly.       
-    </p>
+       <p>Thiruthangal Nadar College has been a forerunner in recognizing the needs of the industry and integrating knowledge with professional inputs.</p>
+       <p>Our college is one of the most eminent Higher Education Institutions in North Chennai today, and it is renowned for the standards of its facilities, students and alumni. By maintaining a team of core faculty members, who are constantly pushing the frontiers of knowledge, we ensure a futuristic approach that keeps pace with the changing trends in the professional world through our global perspective.</p>
+       <p> Our primary commitment is to provide education to poor students and find the true potential of our students and equip them for the future, by providing them with the necessary skills, knowledge, and values. </p>
+       <p> We achieve this goal through our unrelenting efforts to enhance Quality in Education and Diversity in our campus..I consider this a great opportunity, privilege, and an honour to lead such a progressive educational establishment.</p>
     </div>
 </div>
 <!------------------------------------------------------------------------------------------------ -->
