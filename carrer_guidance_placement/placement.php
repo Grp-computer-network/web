@@ -7,7 +7,7 @@
     <?php 
     include('../reuseable_files/style-php.html');
     ?>
-    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="../css//tailwind.css">
     <style>
     /* Animation for image transition */
     @keyframes slide {
@@ -197,7 +197,7 @@
 
   <!--Admission Form -->
   <?php 
-        include('addmission_form/admission_form.html');  
+        include('../addmission_form/admission_form.html');  
         ?>
 <!--Form End-->
 </body>

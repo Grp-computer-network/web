@@ -7,6 +7,7 @@
     <?php 
     include('reuseable_files/style-php.html');
     ?>
+   <link rel="stylesheet" href="css/tailwind.css">
 </head>
 <body>
 <?php
