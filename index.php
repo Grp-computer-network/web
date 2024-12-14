@@ -259,12 +259,12 @@
                 <img src="./assets/top-recuriters-img/cap.jpg" alt="Recruiter 3">
                 <img src="./assets/top-recuriters-img/cl1.png" alt="Recruiter 4">
                 <img src="./assets/top-recuriters-img/icici.jpg" alt="Recruiter 5">
-                <img src="./assets/top-recuriters-img/infy.jpg" alt="Recruiter 5">
-                <img src="./assets/top-recuriters-img/justdial.jpg" alt="Recruiter 5">
-                <img src="./assets/top-recuriters-img/Pyroferus-Image.png" alt="Recruiter 5">
-                <img src="./assets/top-recuriters-img/tcs1.png" alt="Recruiter 5">
-                <img src="./assets/top-recuriters-img/tmb1.png" alt="Recruiter 5">
-                <img src="./assets/top-recuriters-img/yes-300x117.png" alt="Recruiter 5">
+                <img src="./assets/top-recuriters-img/infy.jpg" alt="Recruiter 6">
+                <img src="./assets/top-recuriters-img/justdial.jpg" alt="Recruiter 7">
+                <img src="./assets/top-recuriters-img/Pyroferus-Image.png" alt="Recruiter 8">
+                <img src="./assets/top-recuriters-img/tcs1.png" alt="Recruiter 9">
+                <img src="./assets/top-recuriters-img/tmb1.png" alt="Recruiter 10">
+                <img src="./assets/top-recuriters-img/yes-300x117.png" alt="Recruiter 11">
                 <!-- Add more recruiter logos here -->
             </div>
         </div>

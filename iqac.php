@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IQAC - Thiruthangal Nadar College</title>
+    <link rel="icon" type="image/x-icon" href="/COLLEGE_WEB/assets//img//TNC_logo.png">
     <link rel="stylesheet" href="css/IQAC/iqac.css">
     <!--Main style sheets for nav-bar anad body content-->
     <link rel="stylesheet" href="css/home-content-style/styles.css">
