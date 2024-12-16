@@ -6,16 +6,13 @@
     <title>IQAC - Thiruthangal Nadar College</title>
     <link rel="icon" type="image/x-icon" href="/COLLEGE_WEB/assets//img//TNC_logo.png">
     <link rel="stylesheet" href="css/IQAC/iqac.css">
-    <!--Main style sheets for nav-bar anad body content-->
     <link rel="stylesheet" href="css/home-content-style/styles.css">
-    <!--style for foooter-->
     <link rel="stylesheet" href="css/home-content-style/footer.css">
-    <!--style for the pop events-->
     <link rel="stylesheet" href="css/home-content-style/popup.css">
     <link rel="stylesheet" href="css/home-content-style/addmission.css">
-    <!--style for icons imported-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="/COLLEGE_WEB/css//IQAC//About_IQAC.css">
     </head>
     <body>
     <!--- header content-->

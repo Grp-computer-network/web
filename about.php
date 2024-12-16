@@ -23,7 +23,7 @@
     <nav id="iqac-nav">
         <ul>
             <li><a href="about/history.html" class="iqac-link">History</a></li>
-            <li><a href="about/msg-principal-serectary.html" class="iqac-link">Institutional Development Plan</a></li>
+            <li><a href="about/instutuional-development.html" class="iqac-link">Institutional Development Plan</a></li>
             <li><a href="about/committee-msg.html" class="iqac-link">Committee of Management</a></li>
             <li><a href="about/insitution-polices.html" class="iqac-link">Institution Policies</a></li>
             <li><a href="about/organogram.html" class="iqac-link">Organogram</a></li>
