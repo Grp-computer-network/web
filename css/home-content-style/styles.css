@@ -4,10 +4,11 @@
     padding:0;
     font-family: "poppins";
 }
+
 body{
     background: none;
     zoom: 100%;
-
+    overflow-x: hidden;
 }
 @media screen and (-webkit-min-device-pixel-ratio:0) {
         body{
@@ -30,6 +31,7 @@ body{
     color: #ffffff;
     text-decoration: none;
     margin-right: 0px;
+    padding:5px;
     font-size: 18px;
 }
 

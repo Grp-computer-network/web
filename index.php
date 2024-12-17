@@ -114,7 +114,7 @@
                     </p>
                     <div class="accreditation">
                         <img src="./assets/img/Naac.logo.jpg" alt="NAAC Accreditation Badge">
-                        <span>CGPA 3.68 - B++</span> 
+                        <span>CGPA 2.9 - B++</span> 
                     </div>
                     <h2>Vision</h2>
                     <p>To disseminate knowledge and foster in our students positive and critical thinking besides intellectual skils to become empowered beings.</p>
