@@ -16,41 +16,44 @@
     include('reuseable_files/header.html');
     ?>
 
-    <header class="bg-[#a30000] text-white text-center py-6">
+    <header class="bg-[#a30000] text-white text-center py-6" >
         <h1 class="text-3xl font-bold">Contact Us</h1>
     </header><br>
+
 
     <div class="container mx-auto px-4 py-16">
         <!-- Header Section -->
         <header class="text-center mb-12">
-            <h1 class="text-4xl font-extrabold text-blue-600">Get in Touch</h1>
+            <h1 class="text-4xl font-extrabold text-red-600">Get in Touch</h1>
             <p class="text-lg text-gray-600 mt-2">We'd love to hear from you. Please reach out with any questions or concerns!</p>
         </header>
 
         <!-- Help Desk Section -->
         <section class="mb-16">
-    <h2 class="text-3xl font-bold text-gray-900 text-center mb-8">
-        Need Assistance? <span class="text-blue-600">Our Help Desk</span> Is Here for You!
-    </h2>
-    <div class="bg-gradient-to-br from-blue-500 via-indigo-500 to-purple-600 text-white rounded-xl shadow-2xl p-10 relative overflow-hidden">
-        <div class="absolute inset-0 opacity-10 bg-[url('https://cdn-icons-png.flaticon.com/512/3209/3209454.png')] bg-no-repeat bg-center"></div>
-        <div class="relative text-center">
-            <h3 class="text-2xl font-extrabold mb-4 flex items-center justify-center space-x-2">
-                <i class="fas fa-user-tie text-yellow-300 text-3xl"></i>
-                <span>Mr. S. Bernard Selvam, B.A.</span>
-            </h3>
-            <p class="text-lg font-medium mb-4 flex items-center justify-center space-x-3">
-                <i class="fas fa-phone-alt text-yellow-300"></i>
-                <span>Contact:</span>
-                <span class="font-semibold">8667882141</span>,
-                <span class="font-semibold">8608768629</span>
-            </p>
-            <p class="text-md italic">
-                "Feel free to reach out for assistance or queries regarding college activities and services."
-            </p>
-        </div>
-    </div>
-</section>
+            <h2 class="text-3xl font-bold text-gray-900 text-center mb-8">
+                Need Assistance? <span class="text-red-600">Our Help Desk</span> Is Here for You!
+            </h2>
+            <div class="bg-[#003366] text-white rounded-xl shadow-2xl p-10 relative overflow-hidden">
+                <!-- Content Block -->
+                <div class="relative text-center">
+                    <h3 class="text-2xl font-extrabold mb-4 flex items-center justify-center space-x-2">
+                        <i class="fas fa-user-tie text-yellow-300 text-3xl"></i>
+                        <span>Mr. S. Bernard Selvam, B.A.</span>
+                    </h3>
+                    
+                    <p class="text-lg font-medium mb-4 flex items-center justify-center space-x-3">
+                        <i class="fas fa-phone-alt text-yellow-300"></i>
+                        <span>Contact:</span>
+                        <span class="font-semibold">8667882141</span>,
+                        <span class="font-semibold">8608768629</span>
+                    </p>
+                    
+                    <p class="text-md italic">
+                        "Feel free to reach out for assistance or queries regarding college activities and services."
+                    </p>
+                </div>
+            </div>
+        </section>
 
 
         <!-- Grievance Form Section -->
@@ -58,7 +61,7 @@
             <h2 class="text-2xl font-semibold text-gray-800 mb-6">Grievance Form</h2>
             <div class="flex justify-center">
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSfehcLL8eLfyH3js6URpelSvQZzvqxfGQbUC1fRHadLkW4_wA/viewform" target="_blank">
-                    <button class="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition duration-300 ease-in-out">
+                    <button class="px-6 py-3 bg-green-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition duration-300 ease-in-out">
                         Submit Grievance
                     </button>
                 </a>
