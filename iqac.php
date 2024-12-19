@@ -49,11 +49,10 @@
         <!-- Main Content Section where the IQAC content will be loaded -->
         <div id="iqac-content">
             <h2>Welcome to IQAC</h2>   <br>
-            <p style="font-size: 20px;padding: 10px;">IQAC would be looked upon as the prime quality sustenance measure.
-
-                As providing quality education, adopting innovative teaching-learning methods, and assessing them is a continuous process, IQAC will be working with the HEI to support them throughout their teaching-learning journey.
-                
-                Let’s understand the concept of IQAC & how it can help institutions.</p>
+            <p style="font-size: 20px;padding: 10px;">Welcome to the official website of the Internal Quality Assurance Cell (IQAC) of [Thiruthangal Nadar College]. 
+            Our primary goal is to establish a culture of continuous improvement by ensuring that academic, administrative, and infrastructural processes meet the highest standards. We are committed to fostering a learning environment that promotes excellence in teaching, research, and overall institutional growth.
+            Through our various initiatives, we seek to engage all stakeholders in the process of self-assessment and feedback, which are crucial for driving innovation and quality enhancement. The IQAC aims to be driving forces in helping the institution achieve its long-term goals, in line with national and global standards.
+            We are always open to collaboration and feedback to help further our mission of quality improvement</p>
         </div>
         </section>
         <!-- footer -->
